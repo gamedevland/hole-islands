@@ -1,90 +1,15 @@
 {
   "game": "Hole Islands",
   "platform": "web",
-  "sourceCommit": "59dc63e93ea092a7a42c6157350a9e353f425259",
-  "sourceTree": "76b2fa54f5a7f203b1fee2d2d8edbcfb48c54cfe",
-  "sourceTag": "hole-islands-web-2026-11-10",
-  "builtAt": "2026-11-10T16:57:25.591916+00:00",
+  "sourceRepository": "bolotnikov/three-game",
+  "sourceCommit": "1c917cb812d84c5cc5e40afe5ffefca8d4b0c39c",
+  "sourceTree": "ed62d650531a241f9518082bf2a7718103334647",
+  "builtAt": "2026-11-10T18:11:13.048Z",
   "files": [
     {
       "path": ".nojekyll",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "assets/BitmapFont-BNe8KI7M.js",
-      "bytes": 54,
-      "sha256": "3e7cf30806d1b36714e7272d853784f5b5fa6ad7cb8f00038313758f5fe9237a"
-    },
-    {
-      "path": "assets/BitmapFont-DiTQP18I.js",
-      "bytes": 33402,
-      "sha256": "3c520ec8f2fb9ad1e7c6fe250069f7c62f9bc292313038e53032a82aa5ffc9eb"
-    },
-    {
-      "path": "assets/Cache-BNS9ZNya.js",
-      "bytes": 1100,
-      "sha256": "da52785b2a1892b750059e24033484d165855175a1fa61cc32de1a1573081bc1"
-    },
-    {
-      "path": "assets/CanvasPool-CvhLfrak.js",
-      "bytes": 71054,
-      "sha256": "f1ad5a972eaaf9efea14020349b06337e1c36d93563ab17d10b240bf9c248789"
-    },
-    {
-      "path": "assets/CanvasRenderer-DVg1g075.js",
-      "bytes": 62,
-      "sha256": "d359a46f994452678d3863ce601011fcfccf02883990d485d89fb159a50be332"
-    },
-    {
-      "path": "assets/CanvasRenderer-DrDaXsmK.js",
-      "bytes": 27091,
-      "sha256": "32c3082f29d7f13fb33f8ba987f8e21a7242b89f431987ed0574c63dc37673eb"
-    },
-    {
-      "path": "assets/Filter-BKK0d-_8.js",
-      "bytes": 41970,
-      "sha256": "c0429cdd2752dc27784e40fc3f7fa8f9536a15d3d7a0578be5d8f595fa3670b5"
-    },
-    {
-      "path": "assets/GCManagedHash-znj9Ve3v.js",
-      "bytes": 19332,
-      "sha256": "133ce75ccc0428b71534439ea9365a5455ab811ce6887fc2197ec5ec91ecf82f"
-    },
-    {
-      "path": "assets/GraphicsContext-DlQl6wmV.js",
-      "bytes": 61677,
-      "sha256": "29f7af4f216418b9c218e9af2c759488cc1499994776118401bbacc01c865fd9"
-    },
-    {
-      "path": "assets/RenderTargetSystem-DwBVJQFK.js",
-      "bytes": 58809,
-      "sha256": "9f7fdb1d05f5d3e4a7749bf36a8318b84773e0136781fbe2276d4edeb3ae569a"
-    },
-    {
-      "path": "assets/Rubik-Bold-knwvmnvi.woff2",
-      "bytes": 61604,
-      "sha256": "b591885d92d4cd4470b48e05575ce64819e8974eead83a71c894a763355e055b"
-    },
-    {
-      "path": "assets/WebGLRenderer-DJOnUXAN.js",
-      "bytes": 72833,
-      "sha256": "66e4cc0305670fb6ea5a2dd34e34bf84f465537b7bea9bd9363a29e39a142459"
-    },
-    {
-      "path": "assets/WebGLRenderer-pmbgY_51.js",
-      "bytes": 60,
-      "sha256": "208e367b034d15204cfbe29a17f517a79d601adac47a6073f16b2f00a47a44c4"
-    },
-    {
-      "path": "assets/WebGPURenderer-859iIWkW.js",
-      "bytes": 55177,
-      "sha256": "e7ba208ce58e715f6127dac54702941e1379960520d944f2ab962871b2e89086"
-    },
-    {
-      "path": "assets/WebGPURenderer-QCx8kx3X.js",
-      "bytes": 62,
-      "sha256": "6edfe86098ad5971e77b063609f66ffd8622a8308f6f4a657c380d8a6cd6e283"
     },
     {
       "path": "assets/apple-level02-BqHeIr6O.glb",
@@ -102,24 +27,34 @@
       "sha256": "ce8e3e2214fa23ef5b86e1fa30efb29efd121ff6cf9f3e119138fdc4b8c45702"
     },
     {
-      "path": "assets/beet_slice-DjY8E2No.glb",
-      "bytes": 410828,
-      "sha256": "b28caaa3f6d836f1865297e68764f3cc35c6390f8f0019b9738daaf382b1e775"
-    },
-    {
       "path": "assets/beet_slice_large-Bh6te6W-.glb",
       "bytes": 412888,
       "sha256": "6f7a8efa7783a5957c553101aace3a482fbfac7d9a71d370884a159a25372206"
     },
     {
-      "path": "assets/blackberry-DIWuWcw_.glb",
-      "bytes": 321604,
-      "sha256": "d9bd06ef3531456bbb729585b4318932656501f3ec53d6a0820a11f9c71a851f"
+      "path": "assets/beet_slice-DjY8E2No.glb",
+      "bytes": 410828,
+      "sha256": "b28caaa3f6d836f1865297e68764f3cc35c6390f8f0019b9738daaf382b1e775"
+    },
+    {
+      "path": "assets/BitmapFont-BNe8KI7M.js",
+      "bytes": 54,
+      "sha256": "3e7cf30806d1b36714e7272d853784f5b5fa6ad7cb8f00038313758f5fe9237a"
+    },
+    {
+      "path": "assets/BitmapFont-DiTQP18I.js",
+      "bytes": 33402,
+      "sha256": "3c520ec8f2fb9ad1e7c6fe250069f7c62f9bc292313038e53032a82aa5ffc9eb"
     },
     {
       "path": "assets/blackberry_dense-C5vTTO1O.glb",
       "bytes": 288784,
       "sha256": "9668bd186b4fcd5a5ae7cddf439877b2a3b172b7f9128334d967b6ac33dbcb47"
+    },
+    {
+      "path": "assets/blackberry-DIWuWcw_.glb",
+      "bytes": 321604,
+      "sha256": "d9bd06ef3531456bbb729585b4318932656501f3ec53d6a0820a11f9c71a851f"
     },
     {
       "path": "assets/blueberry-DZv4pUC8.glb",
@@ -137,19 +72,39 @@
       "sha256": "81afb521a9fca160d0605300a5165de5330932e263cbb7a2064d2021d9488166"
     },
     {
+      "path": "assets/Cache-BNS9ZNya.js",
+      "bytes": 1100,
+      "sha256": "da52785b2a1892b750059e24033484d165855175a1fa61cc32de1a1573081bc1"
+    },
+    {
+      "path": "assets/CanvasPool-CvhLfrak.js",
+      "bytes": 71054,
+      "sha256": "f1ad5a972eaaf9efea14020349b06337e1c36d93563ab17d10b240bf9c248789"
+    },
+    {
+      "path": "assets/CanvasRenderer-DrDaXsmK.js",
+      "bytes": 27091,
+      "sha256": "32c3082f29d7f13fb33f8ba987f8e21a7242b89f431987ed0574c63dc37673eb"
+    },
+    {
+      "path": "assets/CanvasRenderer-DVg1g075.js",
+      "bytes": 62,
+      "sha256": "d359a46f994452678d3863ce601011fcfccf02883990d485d89fb159a50be332"
+    },
+    {
       "path": "assets/canvasUtils-DvJBlGrX.js",
       "bytes": 6011,
       "sha256": "b20a901e8703e8d2015a83daaea8044f58f674b0d014fde81912b64afaa64dce"
     },
     {
-      "path": "assets/carrot_slice-jh5p6Yi4.glb",
-      "bytes": 423976,
-      "sha256": "5e8a718e795397024436ef8828aed4d64baf716cc3463819b296a17b8bd162f2"
-    },
-    {
       "path": "assets/carrot_slice_large-BCxU9r2R.glb",
       "bytes": 426040,
       "sha256": "7a11046b41efe3f1e3665d0bace780cb0ea0100728769252d24e2f8eb7ae840a"
+    },
+    {
+      "path": "assets/carrot_slice-jh5p6Yi4.glb",
+      "bytes": 423976,
+      "sha256": "5e8a718e795397024436ef8828aed4d64baf716cc3463819b296a17b8bd162f2"
     },
     {
       "path": "assets/cherry-dUqHWkOT.glb",
@@ -175,6 +130,16 @@
       "path": "assets/fig-BVMM9VGh.glb",
       "bytes": 409684,
       "sha256": "3a44f4b2df1dc2496cc043467e59f4eecfff86fa0509d3e4dbf0e8371d61db74"
+    },
+    {
+      "path": "assets/Filter-BKK0d-_8.js",
+      "bytes": 41970,
+      "sha256": "c0429cdd2752dc27784e40fc3f7fa8f9536a15d3d7a0578be5d8f595fa3670b5"
+    },
+    {
+      "path": "assets/GCManagedHash-znj9Ve3v.js",
+      "bytes": 19332,
+      "sha256": "133ce75ccc0428b71534439ea9365a5455ab811ce6887fc2197ec5ec91ecf82f"
     },
     {
       "path": "assets/generated-01-goal-card-D4ymQm20.webp",
@@ -342,6 +307,11 @@
       "sha256": "23aa63598bc3441e0a7a36240b4279aaef9f2a8b13a01a1fb0fb7e46de32609d"
     },
     {
+      "path": "assets/GraphicsContext-DlQl6wmV.js",
+      "bytes": 61677,
+      "sha256": "29f7af4f216418b9c218e9af2c759488cc1499994776118401bbacc01c865fd9"
+    },
+    {
       "path": "assets/green_pepper-sup3AgHT.glb",
       "bytes": 304792,
       "sha256": "3dc9b3958923b20652380d265397a6157f815a01242496d8dd74c8286f65f851"
@@ -507,14 +477,14 @@
       "sha256": "d9869e13bfff9f0d81a34b4878f881358f460de50f9f5b1e3dec6648060e1dd8"
     },
     {
+      "path": "assets/index-BIiztAPj.js",
+      "bytes": 1580470,
+      "sha256": "63ea3f7aa20c8667972ba4507a8bb40927ee8ed7d095a020fefc21328cec2fef"
+    },
+    {
       "path": "assets/index-Dwnjz691.css",
       "bytes": 8256,
       "sha256": "4c281093b69693c076ffc97afa0af565c2c7935f99e2915ec6228911ad762b78"
-    },
-    {
-      "path": "assets/index-FpTDvOk_.js",
-      "bytes": 1577412,
-      "sha256": "9cdfd9255b16de17cca142956eb5b132934d5f41d7615803f2dc601ab1eaf347"
     },
     {
       "path": "assets/init-DSRvJPuc.js",
@@ -697,6 +667,16 @@
       "sha256": "69bb566c152ed5386639ee51047762a73665cd0bf33d161a7269508a0f9cf954"
     },
     {
+      "path": "assets/RenderTargetSystem-DwBVJQFK.js",
+      "bytes": 58809,
+      "sha256": "9f7fdb1d05f5d3e4a7749bf36a8318b84773e0136781fbe2276d4edeb3ae569a"
+    },
+    {
+      "path": "assets/Rubik-Bold-knwvmnvi.woff2",
+      "bytes": 61604,
+      "sha256": "b591885d92d4cd4470b48e05575ce64819e8974eead83a71c894a763355e055b"
+    },
+    {
       "path": "assets/settings-panel-CwFjTgAe.webp",
       "bytes": 64514,
       "sha256": "8050ee449372de7b548a1b48a2b47d2bf196a2b8f9d8dfaff3bfd49158c9ea07"
@@ -782,6 +762,26 @@
       "sha256": "53778ad08e89305dab9d69e09ce8153cfc697b2439bca003b20bc726ff5a630d"
     },
     {
+      "path": "assets/WebGLRenderer-DJOnUXAN.js",
+      "bytes": 72833,
+      "sha256": "66e4cc0305670fb6ea5a2dd34e34bf84f465537b7bea9bd9363a29e39a142459"
+    },
+    {
+      "path": "assets/WebGLRenderer-pmbgY_51.js",
+      "bytes": 60,
+      "sha256": "208e367b034d15204cfbe29a17f517a79d601adac47a6073f16b2f00a47a44c4"
+    },
+    {
+      "path": "assets/WebGPURenderer-859iIWkW.js",
+      "bytes": 55177,
+      "sha256": "e7ba208ce58e715f6127dac54702941e1379960520d944f2ab962871b2e89086"
+    },
+    {
+      "path": "assets/WebGPURenderer-QCx8kx3X.js",
+      "bytes": 62,
+      "sha256": "6edfe86098ad5971e77b063609f66ffd8622a8308f6f4a657c380d8a6cd6e283"
+    },
+    {
       "path": "assets/webworkerAll-DSspESEI.js",
       "bytes": 73,
       "sha256": "0672cbabc8b25f0ee087e21a2fa0ed5dcbdc1e1166e03306a7d9b6ed73aae2b0"
@@ -797,14 +797,14 @@
       "sha256": "7e9aed5cfa4b56465e7d6ed7e78b7c3e14c153c7b8e77fdb9a2efb9677d41523"
     },
     {
-      "path": "assets/wood_segment-CGjoeKSl.glb",
-      "bytes": 325412,
-      "sha256": "795e80bdc2eb7de0cff9090c7db18acf13ca6d5aa45ae3d1d29041aafc37dd0b"
-    },
-    {
       "path": "assets/wood_segment_tall-CgOR_ohb.glb",
       "bytes": 325564,
       "sha256": "665766e72826c976ee0e84b8c9c175f0d92d86c00a68196a3de5689faed0c61c"
+    },
+    {
+      "path": "assets/wood_segment-CGjoeKSl.glb",
+      "bytes": 325412,
+      "sha256": "795e80bdc2eb7de0cff9090c7db18acf13ca6d5aa45ae3d1d29041aafc37dd0b"
     },
     {
       "path": "assets/yellow_pepper-2TQEuh3t.glb",
@@ -819,7 +819,7 @@
     {
       "path": "index.html",
       "bytes": 3286,
-      "sha256": "a8493d07938e1644fa06c9261f67cdff2b76c4fd9825c33712a7a9300180bfd3"
+      "sha256": "cd4fa99a2155f15d5a4d1b8a116cbe56f3a6ad8ced32f9b596551f61d84652ea"
     },
     {
       "path": "licenses/NotoSans-OFL.txt",

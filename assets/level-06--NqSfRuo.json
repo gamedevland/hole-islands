@@ -43,22 +43,22 @@
       "speed": 2.4
     },
     {
-      "threshold": 24,
+      "threshold": 12,
       "radius": 0.78,
       "speed": 2.7
     },
     {
-      "threshold": 96,
+      "threshold": 48,
       "radius": 1.08,
       "speed": 3
     },
     {
-      "threshold": 200,
+      "threshold": 120,
       "radius": 1.38,
       "speed": 3.25
     },
     {
-      "threshold": 360,
+      "threshold": 240,
       "radius": 1.64,
       "speed": 3.45
     }
@@ -1855,25 +1855,25 @@
   "goals": [
     {
       "kind": "orange",
-      "count": 52,
+      "count": 40,
       "label": "Oranges",
       "icon": "images/ui/generated-05-fruit-orange.webp"
     },
     {
       "kind": "blueberry",
-      "count": 52,
+      "count": 40,
       "label": "Blueberries",
       "icon": "images/ui/icon-blueberry.webp"
     },
     {
       "kind": "strawberry",
-      "count": 32,
+      "count": 24,
       "label": "Strawberries",
       "icon": "images/ui/generated-04-fruit-strawberry.webp"
     },
     {
       "kind": "apple",
-      "count": 8,
+      "count": 6,
       "label": "Apples",
       "icon": "images/ui/generated-06-fruit-apple.webp"
     }
@@ -6024,9 +6024,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -8.0,
+        "x": -0.18,
         "y": 0.008,
-        "z": 9.6
+        "z": 10.35
       },
       "yaw": 0.0,
       "scale": {
@@ -6047,9 +6047,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -7.157895,
+        "x": 0.18,
         "y": 0.008,
-        "z": 9.494199
+        "z": 10.35
       },
       "yaw": 3.883222,
       "scale": {
@@ -6070,9 +6070,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -6.315789,
+        "x": -0.18,
         "y": 0.008,
-        "z": 9.42881
+        "z": 9.99
       },
       "yaw": 1.483259,
       "scale": {
@@ -6093,9 +6093,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -5.473684,
+        "x": 0.18,
         "y": 0.008,
-        "z": 9.42881
+        "z": 9.99
       },
       "yaw": 5.366481,
       "scale": {
@@ -6116,9 +6116,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -4.631579,
+        "x": -0.18,
         "y": 0.008,
-        "z": 9.494199
+        "z": 9.63
       },
       "yaw": 2.966518,
       "scale": {
@@ -6139,9 +6139,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -3.789474,
+        "x": 0.18,
         "y": 0.008,
-        "z": 9.6
+        "z": 9.63
       },
       "yaw": 0.566554,
       "scale": {
@@ -6162,9 +6162,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -2.947368,
+        "x": -0.18,
         "y": 0.008,
-        "z": 9.705801
+        "z": 9.27
       },
       "yaw": 4.449777,
       "scale": {
@@ -6185,9 +6185,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -2.105263,
+        "x": 0.18,
         "y": 0.008,
-        "z": 9.77119
+        "z": 9.27
       },
       "yaw": 2.049813,
       "scale": {
@@ -6208,9 +6208,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -1.263158,
+        "x": -0.18,
         "y": 0.008,
-        "z": 9.77119
+        "z": 8.91
       },
       "yaw": 5.933035,
       "scale": {
@@ -6231,9 +6231,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -0.421053,
+        "x": 0.18,
         "y": 0.008,
-        "z": 9.705801
+        "z": 8.91
       },
       "yaw": 3.533072,
       "scale": {
@@ -6254,9 +6254,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 0.421053,
+        "x": -0.18,
         "y": 0.008,
-        "z": 9.6
+        "z": 8.55
       },
       "yaw": 1.133109,
       "scale": {
@@ -6277,9 +6277,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 1.263158,
+        "x": 0.18,
         "y": 0.008,
-        "z": 9.494199
+        "z": 8.55
       },
       "yaw": 5.016331,
       "scale": {
@@ -6300,9 +6300,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 2.105263,
+        "x": -0.18,
         "y": 0.008,
-        "z": 9.42881
+        "z": 8.19
       },
       "yaw": 2.616368,
       "scale": {
@@ -6323,9 +6323,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 2.947368,
+        "x": 0.18,
         "y": 0.008,
-        "z": 9.42881
+        "z": 8.19
       },
       "yaw": 0.216405,
       "scale": {
@@ -6346,9 +6346,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 3.789474,
+        "x": -0.18,
         "y": 0.008,
-        "z": 9.494199
+        "z": 7.83
       },
       "yaw": 4.099627,
       "scale": {
@@ -6369,9 +6369,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 4.631579,
+        "x": 0.18,
         "y": 0.008,
-        "z": 9.6
+        "z": 7.83
       },
       "yaw": 1.699663,
       "scale": {
@@ -6392,9 +6392,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 5.473684,
+        "x": -0.18,
         "y": 0.008,
-        "z": 9.705801
+        "z": 7.47
       },
       "yaw": 5.582885,
       "scale": {
@@ -6415,9 +6415,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 6.315789,
+        "x": 0.18,
         "y": 0.008,
-        "z": 9.77119
+        "z": 7.47
       },
       "yaw": 3.182922,
       "scale": {
@@ -6438,9 +6438,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 7.157895,
+        "x": -0.18,
         "y": 0.008,
-        "z": 9.77119
+        "z": 7.11
       },
       "yaw": 0.782959,
       "scale": {
@@ -6461,9 +6461,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 8.0,
+        "x": 0.18,
         "y": 0.008,
-        "z": 9.705801
+        "z": 7.11
       },
       "yaw": 4.666181,
       "scale": {
@@ -6484,9 +6484,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -8.0,
+        "x": -0.18,
         "y": 0.008,
-        "z": 9.17
+        "z": 6.75
       },
       "yaw": 2.266218,
       "scale": {
@@ -6507,9 +6507,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -7.157895,
+        "x": 0.18,
         "y": 0.008,
-        "z": 9.064199
+        "z": 6.75
       },
       "yaw": 6.14944,
       "scale": {
@@ -6530,9 +6530,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -6.315789,
+        "x": -0.18,
         "y": 0.008,
-        "z": 8.99881
+        "z": 6.39
       },
       "yaw": 3.749477,
       "scale": {
@@ -6553,9 +6553,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -5.473684,
+        "x": 0.18,
         "y": 0.008,
-        "z": 8.99881
+        "z": 6.39
       },
       "yaw": 1.349513,
       "scale": {
@@ -6576,9 +6576,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -4.631579,
+        "x": -1.7,
         "y": 0.008,
-        "z": 9.064199
+        "z": 8.0
       },
       "yaw": 5.232736,
       "scale": {
@@ -6599,9 +6599,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -3.789474,
+        "x": -2.6,
         "y": 0.008,
-        "z": 9.17
+        "z": 8.0
       },
       "yaw": 2.832772,
       "scale": {
@@ -6622,9 +6622,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -2.947368,
+        "x": -3.5,
         "y": 0.008,
-        "z": 9.275801
+        "z": 8.0
       },
       "yaw": 0.432809,
       "scale": {
@@ -6645,9 +6645,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -2.105263,
+        "x": -4.4,
         "y": 0.008,
-        "z": 9.34119
+        "z": 8.0
       },
       "yaw": 4.316031,
       "scale": {
@@ -6668,9 +6668,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -1.263158,
+        "x": -5.3,
         "y": 0.008,
-        "z": 9.34119
+        "z": 8.0
       },
       "yaw": 1.916068,
       "scale": {
@@ -6691,9 +6691,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -0.421053,
+        "x": -6.2,
         "y": 0.008,
-        "z": 9.275801
+        "z": 8.0
       },
       "yaw": 5.79929,
       "scale": {
@@ -6714,9 +6714,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 0.421053,
+        "x": -7.1,
         "y": 0.008,
-        "z": 9.17
+        "z": 8.0
       },
       "yaw": 3.399327,
       "scale": {
@@ -6737,9 +6737,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 1.263158,
+        "x": -1.7,
         "y": 0.008,
-        "z": 9.064199
+        "z": 8.36
       },
       "yaw": 0.999364,
       "scale": {
@@ -6760,9 +6760,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 2.105263,
+        "x": -2.6,
         "y": 0.008,
-        "z": 8.99881
+        "z": 8.36
       },
       "yaw": 4.882586,
       "scale": {
@@ -6783,9 +6783,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 2.947368,
+        "x": -3.5,
         "y": 0.008,
-        "z": 8.99881
+        "z": 8.36
       },
       "yaw": 2.482622,
       "scale": {
@@ -6806,9 +6806,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 3.789474,
+        "x": -4.4,
         "y": 0.008,
-        "z": 9.064199
+        "z": 8.36
       },
       "yaw": 0.082659,
       "scale": {
@@ -6829,9 +6829,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 4.631579,
+        "x": -5.3,
         "y": 0.008,
-        "z": 9.17
+        "z": 8.36
       },
       "yaw": 3.965881,
       "scale": {
@@ -6852,9 +6852,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 5.473684,
+        "x": -6.2,
         "y": 0.008,
-        "z": 9.275801
+        "z": 8.36
       },
       "yaw": 1.565918,
       "scale": {
@@ -6875,9 +6875,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 6.315789,
+        "x": -7.1,
         "y": 0.008,
-        "z": 9.34119
+        "z": 8.36
       },
       "yaw": 5.44914,
       "scale": {
@@ -6898,9 +6898,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 7.157895,
+        "x": -1.7,
         "y": 0.008,
-        "z": 9.34119
+        "z": 8.72
       },
       "yaw": 3.049177,
       "scale": {
@@ -6921,9 +6921,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 8.0,
+        "x": -2.6,
         "y": 0.008,
-        "z": 9.275801
+        "z": 8.72
       },
       "yaw": 0.649214,
       "scale": {
@@ -6944,9 +6944,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -8.0,
+        "x": -3.5,
         "y": 0.008,
-        "z": 8.74
+        "z": 8.72
       },
       "yaw": 4.532436,
       "scale": {
@@ -6967,9 +6967,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -7.157895,
+        "x": -4.4,
         "y": 0.008,
-        "z": 8.634199
+        "z": 8.72
       },
       "yaw": 2.132472,
       "scale": {
@@ -6990,9 +6990,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -6.315789,
+        "x": -5.3,
         "y": 0.008,
-        "z": 8.56881
+        "z": 8.72
       },
       "yaw": 6.015695,
       "scale": {
@@ -7013,9 +7013,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -5.473684,
+        "x": -6.2,
         "y": 0.008,
-        "z": 8.56881
+        "z": 8.72
       },
       "yaw": 3.615731,
       "scale": {
@@ -7036,9 +7036,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -4.631579,
+        "x": -7.1,
         "y": 0.008,
-        "z": 8.634199
+        "z": 8.72
       },
       "yaw": 1.215768,
       "scale": {
@@ -7059,9 +7059,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -3.789474,
+        "x": -1.7,
         "y": 0.008,
-        "z": 8.74
+        "z": 9.08
       },
       "yaw": 5.09899,
       "scale": {
@@ -7082,9 +7082,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -2.947368,
+        "x": -2.6,
         "y": 0.008,
-        "z": 8.845801
+        "z": 9.08
       },
       "yaw": 2.699027,
       "scale": {
@@ -7105,9 +7105,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -2.105263,
+        "x": -3.5,
         "y": 0.008,
-        "z": 8.91119
+        "z": 9.08
       },
       "yaw": 0.299064,
       "scale": {
@@ -7128,9 +7128,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -1.263158,
+        "x": -4.4,
         "y": 0.008,
-        "z": 8.91119
+        "z": 9.08
       },
       "yaw": 4.182286,
       "scale": {
@@ -7151,9 +7151,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -0.421053,
+        "x": -5.3,
         "y": 0.008,
-        "z": 8.845801
+        "z": 9.08
       },
       "yaw": 1.782323,
       "scale": {
@@ -7174,9 +7174,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 0.421053,
+        "x": -6.2,
         "y": 0.008,
-        "z": 8.74
+        "z": 9.08
       },
       "yaw": 5.665545,
       "scale": {
@@ -7197,9 +7197,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 1.263158,
+        "x": -7.1,
         "y": 0.008,
-        "z": 8.634199
+        "z": 9.08
       },
       "yaw": 3.265581,
       "scale": {
@@ -7220,9 +7220,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 2.105263,
+        "x": 1.7,
         "y": 0.008,
-        "z": 8.56881
+        "z": 8.0
       },
       "yaw": 0.865618,
       "scale": {
@@ -7243,9 +7243,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 2.947368,
+        "x": 2.6,
         "y": 0.008,
-        "z": 8.56881
+        "z": 8.0
       },
       "yaw": 4.74884,
       "scale": {
@@ -7266,9 +7266,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 3.789474,
+        "x": 3.5,
         "y": 0.008,
-        "z": 8.634199
+        "z": 8.0
       },
       "yaw": 2.348877,
       "scale": {
@@ -7289,9 +7289,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 4.631579,
+        "x": 4.4,
         "y": 0.008,
-        "z": 8.74
+        "z": 8.0
       },
       "yaw": 6.232099,
       "scale": {
@@ -7312,9 +7312,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 5.473684,
+        "x": 5.3,
         "y": 0.008,
-        "z": 8.845801
+        "z": 8.0
       },
       "yaw": 3.832136,
       "scale": {
@@ -7335,9 +7335,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 6.315789,
+        "x": 6.2,
         "y": 0.008,
-        "z": 8.91119
+        "z": 8.0
       },
       "yaw": 1.432173,
       "scale": {
@@ -7358,9 +7358,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 7.157895,
+        "x": 7.1,
         "y": 0.008,
-        "z": 8.91119
+        "z": 8.0
       },
       "yaw": 5.315395,
       "scale": {
@@ -7381,9 +7381,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 8.0,
+        "x": 1.7,
         "y": 0.008,
-        "z": 8.845801
+        "z": 8.36
       },
       "yaw": 2.915432,
       "scale": {
@@ -7404,9 +7404,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -8.0,
+        "x": 2.6,
         "y": 0.008,
-        "z": 8.31
+        "z": 8.36
       },
       "yaw": 0.515468,
       "scale": {
@@ -7427,9 +7427,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -7.157895,
+        "x": 3.5,
         "y": 0.008,
-        "z": 8.204199
+        "z": 8.36
       },
       "yaw": 4.39869,
       "scale": {
@@ -7450,9 +7450,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -6.315789,
+        "x": 4.4,
         "y": 0.008,
-        "z": 8.13881
+        "z": 8.36
       },
       "yaw": 1.998727,
       "scale": {
@@ -7473,9 +7473,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -5.473684,
+        "x": 5.3,
         "y": 0.008,
-        "z": 8.13881
+        "z": 8.36
       },
       "yaw": 5.881949,
       "scale": {
@@ -7496,9 +7496,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -4.631579,
+        "x": 6.2,
         "y": 0.008,
-        "z": 8.204199
+        "z": 8.36
       },
       "yaw": 3.481986,
       "scale": {
@@ -7519,9 +7519,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -3.789474,
+        "x": 7.1,
         "y": 0.008,
-        "z": 8.31
+        "z": 8.36
       },
       "yaw": 1.082023,
       "scale": {
@@ -7542,9 +7542,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -2.947368,
+        "x": 1.7,
         "y": 0.008,
-        "z": 8.415801
+        "z": 8.72
       },
       "yaw": 4.965245,
       "scale": {
@@ -7565,9 +7565,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -2.105263,
+        "x": 2.6,
         "y": 0.008,
-        "z": 8.48119
+        "z": 8.72
       },
       "yaw": 2.565282,
       "scale": {
@@ -7588,9 +7588,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -1.263158,
+        "x": 3.5,
         "y": 0.008,
-        "z": 8.48119
+        "z": 8.72
       },
       "yaw": 0.165318,
       "scale": {
@@ -7611,9 +7611,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": -0.421053,
+        "x": 4.4,
         "y": 0.008,
-        "z": 8.415801
+        "z": 8.72
       },
       "yaw": 4.04854,
       "scale": {
@@ -7634,9 +7634,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 0.421053,
+        "x": 5.3,
         "y": 0.008,
-        "z": 8.31
+        "z": 8.72
       },
       "yaw": 1.648577,
       "scale": {
@@ -7657,9 +7657,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 1.263158,
+        "x": 6.2,
         "y": 0.008,
-        "z": 8.204199
+        "z": 8.72
       },
       "yaw": 5.531799,
       "scale": {
@@ -7680,9 +7680,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 2.105263,
+        "x": 7.1,
         "y": 0.008,
-        "z": 8.13881
+        "z": 8.72
       },
       "yaw": 3.131836,
       "scale": {
@@ -7703,9 +7703,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 2.947368,
+        "x": 1.7,
         "y": 0.008,
-        "z": 8.13881
+        "z": 9.08
       },
       "yaw": 0.731873,
       "scale": {
@@ -7726,9 +7726,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 3.789474,
+        "x": 2.6,
         "y": 0.008,
-        "z": 8.204199
+        "z": 9.08
       },
       "yaw": 4.615095,
       "scale": {
@@ -7749,9 +7749,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 4.631579,
+        "x": 3.5,
         "y": 0.008,
-        "z": 8.31
+        "z": 9.08
       },
       "yaw": 2.215132,
       "scale": {
@@ -7772,9 +7772,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 5.473684,
+        "x": 4.4,
         "y": 0.008,
-        "z": 8.415801
+        "z": 9.08
       },
       "yaw": 6.098354,
       "scale": {
@@ -7795,9 +7795,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 6.315789,
+        "x": 5.3,
         "y": 0.008,
-        "z": 8.48119
+        "z": 9.08
       },
       "yaw": 3.698391,
       "scale": {
@@ -7818,9 +7818,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 7.157895,
+        "x": 6.2,
         "y": 0.008,
-        "z": 8.48119
+        "z": 9.08
       },
       "yaw": 1.298427,
       "scale": {
@@ -7841,9 +7841,9 @@
       "kind": "redcurrant",
       "asset": "models/campaign/redcurrant.glb",
       "position": {
-        "x": 8.0,
+        "x": 7.1,
         "y": 0.008,
-        "z": 8.415801
+        "z": 9.08
       },
       "yaw": 5.181649,
       "scale": {
@@ -7865,8 +7865,8 @@
   "rescueDistance": 3,
   "rewards": {
     "coins": 46,
-    "secondStarFraction": 0.2,
-    "thirdStarFraction": 0.45
+    "secondStarFraction": 0.15,
+    "thirdStarFraction": 0.35
   },
   "shoreline": [
     {

@@ -1,10 +1,10 @@
 {
   "id": "fruit-lagoon-07-v5",
   "title": "Strawberry Hunt",
-  "timer": 140,
+  "timer": 130,
   "spawn": {
-    "x": 0.0,
-    "z": 12.2
+    "x": -5,
+    "z": 10.3
   },
   "bounds": {
     "halfX": 11.0,
@@ -36,21 +36,21 @@
   "growth": [
     {
       "threshold": 0,
-      "radius": 0.42,
+      "radius": 0.65,
       "speed": 2.4
     },
     {
-      "threshold": 24,
-      "radius": 0.78,
+      "threshold": 12,
+      "radius": 0.86,
       "speed": 2.7
     },
     {
-      "threshold": 72,
+      "threshold": 48,
       "radius": 1.08,
       "speed": 3
     },
     {
-      "threshold": 120,
+      "threshold": 96,
       "radius": 1.38,
       "speed": 3.25
     }
@@ -591,7 +591,7 @@
   "goals": [
     {
       "kind": "strawberry",
-      "count": 40,
+      "count": 28,
       "label": "Strawberries",
       "icon": "images/ui/generated-04-fruit-strawberry.webp"
     }
@@ -4467,8 +4467,8 @@
   "rescueDistance": 3,
   "rewards": {
     "coins": 50,
-    "secondStarFraction": 0.2,
-    "thirdStarFraction": 0.45
+    "secondStarFraction": 0.15,
+    "thirdStarFraction": 0.35
   },
   "shoreline": [
     {

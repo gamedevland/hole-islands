@@ -1664,6 +1664,134 @@
             }
           }
         }
+      },
+      "OPEN_L02_crate_0_0_0": {
+        "type": "Model",
+        "props": {
+          "asset": "models/campaign/wood_crate.glb",
+          "castShadow": true,
+          "receiveShadow": true
+        },
+        "components": {
+          "body": {
+            "type": "HoleRigidBody",
+            "data": {
+              "entityId": "OPEN_L02_crate_0_0_0"
+            }
+          }
+        }
+      },
+      "OPEN_L02_crate_0_0_1": {
+        "type": "Model",
+        "props": {
+          "asset": "models/campaign/wood_crate.glb",
+          "castShadow": true,
+          "receiveShadow": true
+        },
+        "components": {
+          "body": {
+            "type": "HoleRigidBody",
+            "data": {
+              "entityId": "OPEN_L02_crate_0_0_1"
+            }
+          }
+        }
+      },
+      "OPEN_L02_crate_0_1_0": {
+        "type": "Model",
+        "props": {
+          "asset": "models/campaign/wood_crate.glb",
+          "castShadow": true,
+          "receiveShadow": true
+        },
+        "components": {
+          "body": {
+            "type": "HoleRigidBody",
+            "data": {
+              "entityId": "OPEN_L02_crate_0_1_0"
+            }
+          }
+        }
+      },
+      "OPEN_L02_crate_0_1_1": {
+        "type": "Model",
+        "props": {
+          "asset": "models/campaign/wood_crate.glb",
+          "castShadow": true,
+          "receiveShadow": true
+        },
+        "components": {
+          "body": {
+            "type": "HoleRigidBody",
+            "data": {
+              "entityId": "OPEN_L02_crate_0_1_1"
+            }
+          }
+        }
+      },
+      "OPEN_L02_crate_1_0_0": {
+        "type": "Model",
+        "props": {
+          "asset": "models/campaign/wood_crate.glb",
+          "castShadow": true,
+          "receiveShadow": true
+        },
+        "components": {
+          "body": {
+            "type": "HoleRigidBody",
+            "data": {
+              "entityId": "OPEN_L02_crate_1_0_0"
+            }
+          }
+        }
+      },
+      "OPEN_L02_crate_1_0_1": {
+        "type": "Model",
+        "props": {
+          "asset": "models/campaign/wood_crate.glb",
+          "castShadow": true,
+          "receiveShadow": true
+        },
+        "components": {
+          "body": {
+            "type": "HoleRigidBody",
+            "data": {
+              "entityId": "OPEN_L02_crate_1_0_1"
+            }
+          }
+        }
+      },
+      "OPEN_L02_crate_1_1_0": {
+        "type": "Model",
+        "props": {
+          "asset": "models/campaign/wood_crate.glb",
+          "castShadow": true,
+          "receiveShadow": true
+        },
+        "components": {
+          "body": {
+            "type": "HoleRigidBody",
+            "data": {
+              "entityId": "OPEN_L02_crate_1_1_0"
+            }
+          }
+        }
+      },
+      "OPEN_L02_crate_1_1_1": {
+        "type": "Model",
+        "props": {
+          "asset": "models/campaign/wood_crate.glb",
+          "castShadow": true,
+          "receiveShadow": true
+        },
+        "components": {
+          "body": {
+            "type": "HoleRigidBody",
+            "data": {
+              "entityId": "OPEN_L02_crate_1_1_1"
+            }
+          }
+        }
       }
     }
   },

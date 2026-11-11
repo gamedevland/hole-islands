@@ -103,7 +103,14 @@
           "settingsStep": 67
         },
         "backdropFadeDuration": 0.24,
-        "starCenterLift": 8
+        "starCenterLift": 8,
+        "growthFeedback": [
+          {
+            "size": 2,
+            "text": "Collect the supports!",
+            "seconds": 1.5
+          }
+        ]
       }
     }
   },
@@ -149,7 +156,7 @@
         "level": {
           "type": "Text",
           "props": {
-            "text": "7",
+            "text": "4",
             "x": 33,
             "y": 33,
             "anchor": 0.5,
@@ -169,7 +176,7 @@
         "value": {
           "type": "Text",
           "props": {
-            "text": "0 / 40",
+            "text": "0 / 74",
             "x": 111,
             "y": 31,
             "anchor": 0.5,
@@ -221,7 +228,7 @@
         "value": {
           "type": "Text",
           "props": {
-            "text": "02:20",
+            "text": "02:10",
             "x": 80,
             "y": 20,
             "anchor": 0.5,
@@ -297,7 +304,7 @@
             "icon": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/generated-04-fruit-strawberry.webp",
+                "asset": "images/ui/icon-apricot_slice.webp",
                 "x": 30,
                 "y": 28,
                 "width": 44,
@@ -309,7 +316,7 @@
                 "fruit": {
                   "type": "IslandFruit",
                   "data": {
-                    "kind": "strawberry",
+                    "kind": "apricot_slice",
                     "size": 44
                   }
                 }
@@ -318,7 +325,227 @@
             "count": {
               "type": "Text",
               "props": {
-                "text": "40",
+                "text": "28",
+                "x": 30,
+                "y": 65,
+                "anchor": 0.5,
+                "style": {
+                  "fontFamily": "Rubik",
+                  "fontWeight": "700",
+                  "fontSize": 24,
+                  "fill": 16775134,
+                  "stroke": {
+                    "color": 4864884,
+                    "width": 3,
+                    "join": "round"
+                  }
+                }
+              }
+            },
+            "check": {
+              "type": "Sprite",
+              "props": {
+                "asset": "images/ui/generated-19-checkmark.webp",
+                "x": 30,
+                "y": 65,
+                "width": 26,
+                "height": 26,
+                "anchor": 0.5,
+                "visible": false
+              }
+            }
+          },
+          "type": "Container",
+          "components": {
+            "goal": {
+              "type": "IslandGoal",
+              "data": {
+                "activeColor": 16775134,
+                "completeColor": 6809143,
+                "pulseDuration": 0.18,
+                "pulseAmount": 0.06,
+                "completeHold": 0.14,
+                "completePop": 0.12,
+                "completeScale": 1.12,
+                "completeSettle": 0.14,
+                "collapseDuration": 0.24,
+                "collapseScale": 0.02,
+                "reflowDuration": 0.24,
+                "pivotX": 30,
+                "pivotY": 40.5,
+                "pulseEase": "power2.out",
+                "settleEase": "power2.inOut",
+                "collapseEase": "power2.in",
+                "reflowEase": "power2.out"
+              }
+            }
+          }
+        },
+        "card1": {
+          "props": {
+            "x": 67,
+            "y": 0
+          },
+          "children": {
+            "skin": {
+              "type": "Sprite",
+              "props": {
+                "asset": "images/ui/generated-01-goal-card.webp",
+                "x": 0,
+                "y": 0,
+                "width": 60,
+                "height": 81,
+                "anchor": 0,
+                "visible": true
+              }
+            },
+            "back": {
+              "type": "Sprite",
+              "props": {
+                "asset": "images/ui/generated-02-goal-card-back.webp",
+                "x": 0,
+                "y": 0,
+                "width": 60,
+                "height": 81,
+                "anchor": 0,
+                "visible": false
+              }
+            },
+            "icon": {
+              "type": "Sprite",
+              "props": {
+                "asset": "images/ui/icon-kiwi_slice.webp",
+                "x": 30,
+                "y": 28,
+                "width": 44,
+                "height": 44,
+                "anchor": 0.5,
+                "visible": true
+              },
+              "components": {
+                "fruit": {
+                  "type": "IslandFruit",
+                  "data": {
+                    "kind": "kiwi_slice",
+                    "size": 44
+                  }
+                }
+              }
+            },
+            "count": {
+              "type": "Text",
+              "props": {
+                "text": "20",
+                "x": 30,
+                "y": 65,
+                "anchor": 0.5,
+                "style": {
+                  "fontFamily": "Rubik",
+                  "fontWeight": "700",
+                  "fontSize": 24,
+                  "fill": 16775134,
+                  "stroke": {
+                    "color": 4864884,
+                    "width": 3,
+                    "join": "round"
+                  }
+                }
+              }
+            },
+            "check": {
+              "type": "Sprite",
+              "props": {
+                "asset": "images/ui/generated-19-checkmark.webp",
+                "x": 30,
+                "y": 65,
+                "width": 26,
+                "height": 26,
+                "anchor": 0.5,
+                "visible": false
+              }
+            }
+          },
+          "type": "Container",
+          "components": {
+            "goal": {
+              "type": "IslandGoal",
+              "data": {
+                "activeColor": 16775134,
+                "completeColor": 6809143,
+                "pulseDuration": 0.18,
+                "pulseAmount": 0.06,
+                "completeHold": 0.14,
+                "completePop": 0.12,
+                "completeScale": 1.12,
+                "completeSettle": 0.14,
+                "collapseDuration": 0.24,
+                "collapseScale": 0.02,
+                "reflowDuration": 0.24,
+                "pivotX": 30,
+                "pivotY": 40.5,
+                "pulseEase": "power2.out",
+                "settleEase": "power2.inOut",
+                "collapseEase": "power2.in",
+                "reflowEase": "power2.out"
+              }
+            }
+          }
+        },
+        "card2": {
+          "props": {
+            "x": 134,
+            "y": 0
+          },
+          "children": {
+            "skin": {
+              "type": "Sprite",
+              "props": {
+                "asset": "images/ui/generated-01-goal-card.webp",
+                "x": 0,
+                "y": 0,
+                "width": 60,
+                "height": 81,
+                "anchor": 0,
+                "visible": true
+              }
+            },
+            "back": {
+              "type": "Sprite",
+              "props": {
+                "asset": "images/ui/generated-02-goal-card-back.webp",
+                "x": 0,
+                "y": 0,
+                "width": 60,
+                "height": 81,
+                "anchor": 0,
+                "visible": false
+              }
+            },
+            "icon": {
+              "type": "Sprite",
+              "props": {
+                "asset": "images/ui/icon-golden_kiwi_slice.webp",
+                "x": 30,
+                "y": 28,
+                "width": 44,
+                "height": 44,
+                "anchor": 0.5,
+                "visible": true
+              },
+              "components": {
+                "fruit": {
+                  "type": "IslandFruit",
+                  "data": {
+                    "kind": "golden_kiwi_slice",
+                    "size": 44
+                  }
+                }
+              }
+            },
+            "count": {
+              "type": "Text",
+              "props": {
+                "text": "3",
                 "x": 30,
                 "y": 65,
                 "anchor": 0.5,
@@ -411,7 +638,7 @@
         "style": {
           "fontFamily": "Rubik",
           "fontWeight": "700",
-          "fontSize": 44,
+          "fontSize": 32,
           "fill": 16777215,
           "stroke": {
             "color": 4864884,
@@ -973,7 +1200,7 @@
     "fps": {
       "type": "Text",
       "props": {
-        "text": "FPS \u2014",
+        "text": "FPS —",
         "x": 500,
         "y": 930,
         "anchor": {
@@ -1080,7 +1307,7 @@
             "ring": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/generated-22-booster-base.webp",
+                "asset": "images/ui/generated-23-booster-locked-slot.webp",
                 "x": 0,
                 "y": 0,
                 "width": 54,
@@ -1092,11 +1319,11 @@
             "lock": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/generated-26-booster-magnet.webp",
-                "x": 8,
-                "y": 6,
-                "width": 38,
-                "height": 38,
+                "asset": "images/ui/generated-24-padlock.webp",
+                "x": 10,
+                "y": 3,
+                "width": 34,
+                "height": 34,
                 "anchor": 0,
                 "visible": true
               }
@@ -1104,7 +1331,7 @@
             "label": {
               "type": "Text",
               "props": {
-                "text": "FREE",
+                "text": "Lv. 5",
                 "x": 27,
                 "y": 50,
                 "anchor": 0.5,
@@ -1119,18 +1346,6 @@
                     "join": "round"
                   }
                 }
-              }
-            }
-          },
-          "components": {
-            "button": {
-              "type": "IslandButton",
-              "data": {
-                "intent": "HOLE_BOOST",
-                "intentData": {
-                  "kind": "magnet"
-                },
-                "pressScale": 0.975
               }
             }
           }
@@ -1145,7 +1360,7 @@
             "ring": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/generated-22-booster-base.webp",
+                "asset": "images/ui/generated-23-booster-locked-slot.webp",
                 "x": 0,
                 "y": 0,
                 "width": 54,
@@ -1157,11 +1372,11 @@
             "lock": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/generated-27-booster-compass.webp",
-                "x": 8,
-                "y": 6,
-                "width": 38,
-                "height": 38,
+                "asset": "images/ui/generated-24-padlock.webp",
+                "x": 10,
+                "y": 3,
+                "width": 34,
+                "height": 34,
                 "anchor": 0,
                 "visible": true
               }
@@ -1169,7 +1384,7 @@
             "label": {
               "type": "Text",
               "props": {
-                "text": "FREE",
+                "text": "Lv. 7",
                 "x": 27,
                 "y": 50,
                 "anchor": 0.5,
@@ -1184,18 +1399,6 @@
                     "join": "round"
                   }
                 }
-              }
-            }
-          },
-          "components": {
-            "button": {
-              "type": "IslandButton",
-              "data": {
-                "intent": "HOLE_BOOST",
-                "intentData": {
-                  "kind": "goal-finder"
-                },
-                "pressScale": 0.975
               }
             }
           }

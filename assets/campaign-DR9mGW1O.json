@@ -45,6 +45,7 @@
     {
       "level": 2,
       "models": [
+        "models/campaign/wood_crate.glb",
         "models/hole/apple-level02.glb",
         "models/hole/blackberry.glb",
         "models/hole/hole.glb",

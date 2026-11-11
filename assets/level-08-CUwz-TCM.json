@@ -1,7 +1,7 @@
 {
   "id": "fruit-lagoon-08-v5",
   "title": "Vegetable Lake",
-  "timer": 180,
+  "timer": 185,
   "spawn": {
     "x": 0.0,
     "z": 13.2
@@ -45,22 +45,22 @@
       "speed": 2.1
     },
     {
-      "threshold": 24,
+      "threshold": 12,
       "radius": 0.86,
       "speed": 2.7
     },
     {
-      "threshold": 96,
+      "threshold": 60,
       "radius": 1.08,
       "speed": 3
     },
     {
-      "threshold": 200,
+      "threshold": 140,
       "radius": 1.38,
       "speed": 3.25
     },
     {
-      "threshold": 360,
+      "threshold": 260,
       "radius": 1.9,
       "speed": 3.45
     }
@@ -15357,8 +15357,8 @@
   "rescueDistance": 3,
   "rewards": {
     "coins": 54,
-    "secondStarFraction": 0.2,
-    "thirdStarFraction": 0.45
+    "secondStarFraction": 0.15,
+    "thirdStarFraction": 0.35
   },
   "shoreline": [
     {

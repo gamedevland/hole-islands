@@ -1,7 +1,7 @@
 {
   "id": "fruit-lagoon-04-v5",
   "title": "Kiwi Amphitheatre",
-  "timer": 130,
+  "timer": 140,
   "spawn": {
     "x": 0.0,
     "z": 9.7
@@ -42,17 +42,17 @@
       "speed": 2.35
     },
     {
-      "threshold": 20,
+      "threshold": 8,
       "radius": 0.78,
       "speed": 2.65
     },
     {
-      "threshold": 64,
+      "threshold": 32,
       "radius": 1.08,
       "speed": 2.95
     },
     {
-      "threshold": 112,
+      "threshold": 72,
       "radius": 1.38,
       "speed": 3.22
     }
@@ -765,19 +765,19 @@
   "goals": [
     {
       "kind": "apricot_slice",
-      "count": 40,
+      "count": 28,
       "label": "Apricot slices",
       "icon": "images/ui/icon-apricot_slice.webp"
     },
     {
       "kind": "kiwi_slice",
-      "count": 30,
+      "count": 20,
       "label": "Kiwi slices",
       "icon": "images/ui/icon-kiwi_slice.webp"
     },
     {
       "kind": "golden_kiwi_slice",
-      "count": 4,
+      "count": 3,
       "label": "Golden kiwi",
       "icon": "images/ui/icon-golden_kiwi_slice.webp"
     }
@@ -788,9 +788,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": -2.65,
+        "x": -0.85,
         "y": 0.008,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0.0,
       "scale": {
@@ -811,9 +811,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": -3.045406,
+        "x": -1.245406,
         "y": 0.008,
-        "z": 4.545406
+        "z": 5.845406
       },
       "yaw": 3.883222,
       "scale": {
@@ -834,9 +834,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": -4.0,
+        "x": -2.2,
         "y": 0.008,
-        "z": 4.15
+        "z": 5.45
       },
       "yaw": 1.483259,
       "scale": {
@@ -857,9 +857,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": -4.954594,
+        "x": -3.154594,
         "y": 0.008,
-        "z": 4.545406
+        "z": 5.845406
       },
       "yaw": 5.366481,
       "scale": {
@@ -880,9 +880,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": -5.35,
+        "x": -3.55,
         "y": 0.008,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 2.966518,
       "scale": {
@@ -903,9 +903,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": -4.954594,
+        "x": -3.154594,
         "y": 0.008,
-        "z": 6.454594
+        "z": 7.754594
       },
       "yaw": 0.566554,
       "scale": {
@@ -926,9 +926,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": -4.0,
+        "x": -2.2,
         "y": 0.008,
-        "z": 6.85
+        "z": 8.15
       },
       "yaw": 4.449777,
       "scale": {
@@ -949,9 +949,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": -3.045406,
+        "x": -1.245406,
         "y": 0.008,
-        "z": 6.454594
+        "z": 7.754594
       },
       "yaw": 2.049813,
       "scale": {
@@ -972,9 +972,9 @@
       "kind": "kiwi_slice",
       "asset": "models/campaign/kiwi_slice.glb",
       "position": {
-        "x": -2.31125,
+        "x": -0.51125,
         "y": 0.008,
-        "z": 4.525
+        "z": 5.825
       },
       "yaw": 0.0,
       "scale": {
@@ -995,9 +995,9 @@
       "kind": "kiwi_slice",
       "asset": "models/campaign/kiwi_slice.glb",
       "position": {
-        "x": -4.0,
+        "x": -2.2,
         "y": 0.008,
-        "z": 3.55
+        "z": 4.85
       },
       "yaw": 3.883222,
       "scale": {
@@ -1018,9 +1018,9 @@
       "kind": "kiwi_slice",
       "asset": "models/campaign/kiwi_slice.glb",
       "position": {
-        "x": -5.68875,
+        "x": -3.88875,
         "y": 0.008,
-        "z": 4.525
+        "z": 5.825
       },
       "yaw": 1.483259,
       "scale": {
@@ -1041,9 +1041,9 @@
       "kind": "kiwi_slice",
       "asset": "models/campaign/kiwi_slice.glb",
       "position": {
-        "x": -5.68875,
+        "x": -3.88875,
         "y": 0.008,
-        "z": 6.475
+        "z": 7.775
       },
       "yaw": 5.366481,
       "scale": {
@@ -1064,9 +1064,9 @@
       "kind": "kiwi_slice",
       "asset": "models/campaign/kiwi_slice.glb",
       "position": {
-        "x": -4.0,
+        "x": -2.2,
         "y": 0.008,
-        "z": 7.45
+        "z": 8.75
       },
       "yaw": 2.966518,
       "scale": {
@@ -1087,9 +1087,9 @@
       "kind": "kiwi_slice",
       "asset": "models/campaign/kiwi_slice.glb",
       "position": {
-        "x": -2.31125,
+        "x": -0.51125,
         "y": 0.008,
-        "z": 6.475
+        "z": 7.775
       },
       "yaw": 0.566554,
       "scale": {
@@ -1110,9 +1110,9 @@
       "kind": "wood_segment",
       "asset": "models/campaign/wood_segment.glb",
       "position": {
-        "x": -4.0,
+        "x": -2.2,
         "y": 0.008,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1133,9 +1133,9 @@
       "kind": "wood_segment",
       "asset": "models/campaign/wood_segment.glb",
       "position": {
-        "x": -4.0,
+        "x": -2.2,
         "y": 0.29,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1156,9 +1156,9 @@
       "kind": "wood_segment",
       "asset": "models/campaign/wood_segment.glb",
       "position": {
-        "x": -4.0,
+        "x": -2.2,
         "y": 0.572,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1179,9 +1179,9 @@
       "kind": "wood_segment",
       "asset": "models/campaign/wood_segment.glb",
       "position": {
-        "x": -4.0,
+        "x": -2.2,
         "y": 0.854,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1202,9 +1202,9 @@
       "kind": "wood_segment",
       "asset": "models/campaign/wood_segment.glb",
       "position": {
-        "x": -4.0,
+        "x": -2.2,
         "y": 1.136,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1225,9 +1225,9 @@
       "kind": "wood_segment",
       "asset": "models/campaign/wood_segment.glb",
       "position": {
-        "x": -4.0,
+        "x": -2.2,
         "y": 1.418,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1248,9 +1248,9 @@
       "kind": "golden_kiwi_slice",
       "asset": "models/campaign/golden_kiwi_slice.glb",
       "position": {
-        "x": -4.0,
+        "x": -2.2,
         "y": 1.7,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1271,9 +1271,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": 5.35,
+        "x": 3.55,
         "y": 0.008,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 5.933035,
       "scale": {
@@ -1294,9 +1294,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": 4.954594,
+        "x": 3.154594,
         "y": 0.008,
-        "z": 4.545406
+        "z": 5.845406
       },
       "yaw": 3.533072,
       "scale": {
@@ -1317,9 +1317,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": 4.0,
+        "x": 2.2,
         "y": 0.008,
-        "z": 4.15
+        "z": 5.45
       },
       "yaw": 1.133109,
       "scale": {
@@ -1340,9 +1340,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": 3.045406,
+        "x": 1.245406,
         "y": 0.008,
-        "z": 4.545406
+        "z": 5.845406
       },
       "yaw": 5.016331,
       "scale": {
@@ -1363,9 +1363,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": 2.65,
+        "x": 0.85,
         "y": 0.008,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 2.616368,
       "scale": {
@@ -1386,9 +1386,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": 3.045406,
+        "x": 1.245406,
         "y": 0.008,
-        "z": 6.454594
+        "z": 7.754594
       },
       "yaw": 0.216405,
       "scale": {
@@ -1409,9 +1409,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": 4.0,
+        "x": 2.2,
         "y": 0.008,
-        "z": 6.85
+        "z": 8.15
       },
       "yaw": 4.099627,
       "scale": {
@@ -1432,9 +1432,9 @@
       "kind": "apricot_slice",
       "asset": "models/campaign/apricot_slice.glb",
       "position": {
-        "x": 4.954594,
+        "x": 3.154594,
         "y": 0.008,
-        "z": 6.454594
+        "z": 7.754594
       },
       "yaw": 1.699663,
       "scale": {
@@ -1455,9 +1455,9 @@
       "kind": "kiwi_slice",
       "asset": "models/campaign/kiwi_slice.glb",
       "position": {
-        "x": 5.68875,
+        "x": 3.88875,
         "y": 0.008,
-        "z": 4.525
+        "z": 5.825
       },
       "yaw": 4.449777,
       "scale": {
@@ -1478,9 +1478,9 @@
       "kind": "kiwi_slice",
       "asset": "models/campaign/kiwi_slice.glb",
       "position": {
-        "x": 4.0,
+        "x": 2.2,
         "y": 0.008,
-        "z": 3.55
+        "z": 4.85
       },
       "yaw": 2.049813,
       "scale": {
@@ -1501,9 +1501,9 @@
       "kind": "kiwi_slice",
       "asset": "models/campaign/kiwi_slice.glb",
       "position": {
-        "x": 2.31125,
+        "x": 0.51125,
         "y": 0.008,
-        "z": 4.525
+        "z": 5.825
       },
       "yaw": 5.933035,
       "scale": {
@@ -1524,9 +1524,9 @@
       "kind": "kiwi_slice",
       "asset": "models/campaign/kiwi_slice.glb",
       "position": {
-        "x": 2.31125,
+        "x": 0.51125,
         "y": 0.008,
-        "z": 6.475
+        "z": 7.775
       },
       "yaw": 3.533072,
       "scale": {
@@ -1547,9 +1547,9 @@
       "kind": "kiwi_slice",
       "asset": "models/campaign/kiwi_slice.glb",
       "position": {
-        "x": 4.0,
+        "x": 2.2,
         "y": 0.008,
-        "z": 7.45
+        "z": 8.75
       },
       "yaw": 1.133109,
       "scale": {
@@ -1570,9 +1570,9 @@
       "kind": "kiwi_slice",
       "asset": "models/campaign/kiwi_slice.glb",
       "position": {
-        "x": 5.68875,
+        "x": 3.88875,
         "y": 0.008,
-        "z": 6.475
+        "z": 7.775
       },
       "yaw": 5.016331,
       "scale": {
@@ -1593,9 +1593,9 @@
       "kind": "wood_segment",
       "asset": "models/campaign/wood_segment.glb",
       "position": {
-        "x": 4.0,
+        "x": 2.2,
         "y": 0.008,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1616,9 +1616,9 @@
       "kind": "wood_segment",
       "asset": "models/campaign/wood_segment.glb",
       "position": {
-        "x": 4.0,
+        "x": 2.2,
         "y": 0.29,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1639,9 +1639,9 @@
       "kind": "wood_segment",
       "asset": "models/campaign/wood_segment.glb",
       "position": {
-        "x": 4.0,
+        "x": 2.2,
         "y": 0.572,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1662,9 +1662,9 @@
       "kind": "wood_segment",
       "asset": "models/campaign/wood_segment.glb",
       "position": {
-        "x": 4.0,
+        "x": 2.2,
         "y": 0.854,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1685,9 +1685,9 @@
       "kind": "wood_segment",
       "asset": "models/campaign/wood_segment.glb",
       "position": {
-        "x": 4.0,
+        "x": 2.2,
         "y": 1.136,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1708,9 +1708,9 @@
       "kind": "wood_segment",
       "asset": "models/campaign/wood_segment.glb",
       "position": {
-        "x": 4.0,
+        "x": 2.2,
         "y": 1.418,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -1731,9 +1731,9 @@
       "kind": "golden_kiwi_slice",
       "asset": "models/campaign/golden_kiwi_slice.glb",
       "position": {
-        "x": 4.0,
+        "x": 2.2,
         "y": 1.7,
-        "z": 5.5
+        "z": 6.8
       },
       "yaw": 0,
       "scale": {
@@ -3687,8 +3687,8 @@
   "rescueDistance": 3,
   "rewards": {
     "coins": 38,
-    "secondStarFraction": 0.2,
-    "thirdStarFraction": 0.45
+    "secondStarFraction": 0.15,
+    "thirdStarFraction": 0.35
   },
   "shoreline": [
     {

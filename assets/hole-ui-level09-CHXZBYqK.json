@@ -103,7 +103,14 @@
           "settingsStep": 67
         },
         "backdropFadeDuration": 0.24,
-        "starCenterLift": 8
+        "starCenterLift": 8,
+        "growthFeedback": [
+          {
+            "size": 6,
+            "text": "Ready for figs!",
+            "seconds": 1.5
+          }
+        ]
       }
     }
   },
@@ -149,7 +156,7 @@
         "level": {
           "type": "Text",
           "props": {
-            "text": "10",
+            "text": "9",
             "x": 33,
             "y": 33,
             "anchor": 0.5,
@@ -169,7 +176,7 @@
         "value": {
           "type": "Text",
           "props": {
-            "text": "0 / 449",
+            "text": "0 / 572",
             "x": 111,
             "y": 31,
             "anchor": 0.5,
@@ -221,7 +228,7 @@
         "value": {
           "type": "Text",
           "props": {
-            "text": "02:50",
+            "text": "03:00",
             "x": 80,
             "y": 20,
             "anchor": 0.5,
@@ -297,7 +304,7 @@
             "icon": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/icon-beet_slice.webp",
+                "asset": "images/ui/icon-blueberry.webp",
                 "x": 30,
                 "y": 28,
                 "width": 44,
@@ -309,7 +316,7 @@
                 "fruit": {
                   "type": "IslandFruit",
                   "data": {
-                    "kind": "beet_slice",
+                    "kind": "blueberry",
                     "size": 44
                   }
                 }
@@ -318,7 +325,7 @@
             "count": {
               "type": "Text",
               "props": {
-                "text": "280",
+                "text": "220",
                 "x": 30,
                 "y": 65,
                 "anchor": 0.5,
@@ -407,7 +414,7 @@
             "icon": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/icon-carrot_slice.webp",
+                "asset": "images/ui/generated-78-fruit-blackberry.webp",
                 "x": 30,
                 "y": 28,
                 "width": 44,
@@ -419,7 +426,7 @@
                 "fruit": {
                   "type": "IslandFruit",
                   "data": {
-                    "kind": "carrot_slice",
+                    "kind": "blackberry",
                     "size": 44
                   }
                 }
@@ -428,7 +435,7 @@
             "count": {
               "type": "Text",
               "props": {
-                "text": "168",
+                "text": "220",
                 "x": 30,
                 "y": 65,
                 "anchor": 0.5,
@@ -517,7 +524,7 @@
             "icon": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/icon-yellow_squash.webp",
+                "asset": "images/ui/icon-fig.webp",
                 "x": 30,
                 "y": 28,
                 "width": 44,
@@ -529,7 +536,7 @@
                 "fruit": {
                   "type": "IslandFruit",
                   "data": {
-                    "kind": "yellow_squash",
+                    "kind": "fig",
                     "size": 44
                   }
                 }
@@ -538,7 +545,7 @@
             "count": {
               "type": "Text",
               "props": {
-                "text": "1",
+                "text": "6",
                 "x": 30,
                 "y": 65,
                 "anchor": 0.5,
@@ -631,7 +638,7 @@
         "style": {
           "fontFamily": "Rubik",
           "fontWeight": "700",
-          "fontSize": 44,
+          "fontSize": 32,
           "fill": 16777215,
           "stroke": {
             "color": 4864884,
@@ -1193,7 +1200,7 @@
     "fps": {
       "type": "Text",
       "props": {
-        "text": "FPS \u2014",
+        "text": "FPS —",
         "x": 500,
         "y": 930,
         "anchor": {

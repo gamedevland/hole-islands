@@ -1,7 +1,7 @@
 {
   "id": "fruit-lagoon-02-v5",
   "title": "Apple Bay",
-  "timer": 95,
+  "timer": 115,
   "spawn": {
     "x": 0,
     "z": 7.2
@@ -27,11 +27,13 @@
     "fixedStep": 0.016666666666666666,
     "maxSubSteps": 3,
     "maxFrameDelta": 0.05,
-    "solverIterations": 8,
-    "friction": 0.34,
-    "restitution": 0.035,
+    "solverIterations": 24,
+    "friction": 0.55,
+    "restitution": 0,
     "captureAcceleration": 12,
-    "captureInwardAcceleration": 10
+    "captureInwardAcceleration": 10,
+    "sleepSpeedLimit": 0.16,
+    "sleepTimeLimit": 0.3
   },
   "growth": [
     {
@@ -40,12 +42,12 @@
       "speed": 2.35
     },
     {
-      "threshold": 24,
+      "threshold": 12,
       "radius": 0.78,
       "speed": 2.62
     },
     {
-      "threshold": 72,
+      "threshold": 44,
       "radius": 1.08,
       "speed": 2.95
     }
@@ -1423,18 +1425,126 @@
           0
         ]
       ]
+    },
+    {
+      "id": "wood_crate",
+      "shape": "convex",
+      "spheres": [],
+      "center": {
+        "x": -0.0,
+        "y": 0.28,
+        "z": 0.0
+      },
+      "bounds": {
+        "min": {
+          "x": -0.2800000011920929,
+          "y": -0.2800000309944153,
+          "z": -0.2800000011920929
+        },
+        "max": {
+          "x": 0.2800000011920929,
+          "y": 0.2799999713897705,
+          "z": 0.2800000011920929
+        }
+      },
+      "vertices": [
+        {
+          "x": -0.28,
+          "y": -0.28,
+          "z": 0.28
+        },
+        {
+          "x": -0.28,
+          "y": 0.28,
+          "z": 0.28
+        },
+        {
+          "x": -0.28,
+          "y": -0.28,
+          "z": -0.28
+        },
+        {
+          "x": -0.28,
+          "y": 0.28,
+          "z": -0.28
+        },
+        {
+          "x": 0.28,
+          "y": -0.28,
+          "z": 0.28
+        },
+        {
+          "x": 0.28,
+          "y": 0.28,
+          "z": 0.28
+        },
+        {
+          "x": 0.28,
+          "y": -0.28,
+          "z": -0.28
+        },
+        {
+          "x": 0.28,
+          "y": 0.28,
+          "z": -0.28
+        }
+      ],
+      "faces": [
+        [
+          6,
+          7,
+          5,
+          4
+        ],
+        [
+          5,
+          7,
+          3,
+          1
+        ],
+        [
+          3,
+          7,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          4,
+          0
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          4,
+          5,
+          1,
+          0
+        ]
+      ]
     }
   ],
   "goals": [
     {
       "kind": "orange",
-      "count": 24,
+      "count": 16,
       "label": "Oranges",
       "icon": "images/ui/generated-05-fruit-orange.webp"
     },
     {
+      "kind": "wood_crate",
+      "count": 4,
+      "label": "Wooden crates",
+      "icon": "images/ui/icon-wood_crate.webp"
+    },
+    {
       "kind": "apple",
-      "count": 6,
+      "count": 4,
       "label": "Apples",
       "icon": "images/ui/generated-06-fruit-apple.webp"
     }
@@ -1444,9 +1554,9 @@
       "id": "V5_L02_blackberry_000",
       "kind": "blackberry",
       "position": {
-        "x": -2.8,
+        "x": -0.18,
         "y": 0.008,
-        "z": 5.35
+        "z": 6.25
       },
       "yaw": 0.0,
       "scale": {
@@ -1467,9 +1577,9 @@
       "id": "V5_L02_blackberry_001",
       "kind": "blackberry",
       "position": {
-        "x": -2.39224,
+        "x": 0.18,
         "y": 0.008,
-        "z": 5.270533
+        "z": 6.25
       },
       "yaw": 3.883222,
       "scale": {
@@ -1490,9 +1600,9 @@
       "id": "V5_L02_blackberry_002",
       "kind": "blackberry",
       "position": {
-        "x": -2.07232,
+        "x": -0.18,
         "y": 0.008,
-        "z": 4.977053
+        "z": 5.89
       },
       "yaw": 1.483259,
       "scale": {
@@ -1513,9 +1623,9 @@
       "id": "V5_L02_blackberry_003",
       "kind": "blackberry",
       "position": {
-        "x": -1.947644,
+        "x": 0.18,
         "y": 0.008,
-        "z": 4.541697
+        "z": 5.89
       },
       "yaw": 5.366481,
       "scale": {
@@ -1536,9 +1646,9 @@
       "id": "V5_L02_blackberry_004",
       "kind": "blackberry",
       "position": {
-        "x": -2.073607,
+        "x": -0.18,
         "y": 0.008,
-        "z": 4.087256
+        "z": 5.53
       },
       "yaw": 2.966518,
       "scale": {
@@ -1559,9 +1669,9 @@
       "id": "V5_L02_blackberry_005",
       "kind": "blackberry",
       "position": {
-        "x": -2.431912,
+        "x": 0.18,
         "y": 0.008,
-        "z": 3.752577
+        "z": 5.53
       },
       "yaw": 0.566554,
       "scale": {
@@ -1582,9 +1692,9 @@
       "id": "V5_L02_blackberry_006",
       "kind": "blackberry",
       "position": {
-        "x": -2.930542,
+        "x": -0.18,
         "y": 0.008,
-        "z": 3.650234
+        "z": 5.17
       },
       "yaw": 4.449777,
       "scale": {
@@ -1605,9 +1715,9 @@
       "id": "V5_L02_blackberry_007",
       "kind": "blackberry",
       "position": {
-        "x": -3.426972,
+        "x": 0.18,
         "y": 0.008,
-        "z": 3.829348
+        "z": 5.17
       },
       "yaw": 2.049813,
       "scale": {
@@ -1628,9 +1738,9 @@
       "id": "V5_L02_blackberry_008",
       "kind": "blackberry",
       "position": {
-        "x": -3.76889,
+        "x": -0.18,
         "y": 0.008,
-        "z": 4.255656
+        "z": 4.81
       },
       "yaw": 5.933035,
       "scale": {
@@ -1651,9 +1761,9 @@
       "id": "V5_L02_blackberry_009",
       "kind": "blackberry",
       "position": {
-        "x": -3.840809,
+        "x": 0.18,
         "y": 0.008,
-        "z": 4.816283
+        "z": 4.81
       },
       "yaw": 3.533072,
       "scale": {
@@ -1674,9 +1784,9 @@
       "id": "V5_L02_blackberry_010",
       "kind": "blackberry",
       "position": {
-        "x": -3.602331,
+        "x": -0.18,
         "y": 0.008,
-        "z": 5.349325
+        "z": 4.45
       },
       "yaw": 1.133109,
       "scale": {
@@ -1697,9 +1807,9 @@
       "id": "V5_L02_blackberry_011",
       "kind": "blackberry",
       "position": {
-        "x": -3.105574,
+        "x": 0.18,
         "y": 0.008,
-        "z": 5.690608
+        "z": 4.45
       },
       "yaw": 5.016331,
       "scale": {
@@ -1720,9 +1830,9 @@
       "id": "V5_L02_blackberry_012",
       "kind": "blackberry",
       "position": {
-        "x": -2.485042,
+        "x": -0.18,
         "y": 0.008,
-        "z": 5.724101
+        "z": 4.09
       },
       "yaw": 2.616368,
       "scale": {
@@ -1743,9 +1853,9 @@
       "id": "V5_L02_blackberry_013",
       "kind": "blackberry",
       "position": {
-        "x": -1.921408,
+        "x": 0.18,
         "y": 0.008,
-        "z": 5.420548
+        "z": 4.09
       },
       "yaw": 0.216405,
       "scale": {
@@ -1766,9 +1876,9 @@
       "id": "V5_L02_blackberry_014",
       "kind": "blackberry",
       "position": {
-        "x": -1.588916,
+        "x": -0.18,
         "y": 0.008,
-        "z": 4.851666
+        "z": 3.73
       },
       "yaw": 4.099627,
       "scale": {
@@ -1789,9 +1899,9 @@
       "id": "V5_L02_blackberry_015",
       "kind": "blackberry",
       "position": {
-        "x": -1.60169,
+        "x": 0.18,
         "y": 0.008,
-        "z": 4.17412
+        "z": 3.73
       },
       "yaw": 1.699663,
       "scale": {
@@ -1812,9 +1922,9 @@
       "id": "V5_L02_blackberry_016",
       "kind": "blackberry",
       "position": {
-        "x": -1.97547,
+        "x": -0.18,
         "y": 0.008,
-        "z": 3.586516
+        "z": 3.37
       },
       "yaw": 5.582885,
       "scale": {
@@ -1835,9 +1945,9 @@
       "id": "V5_L02_blackberry_017",
       "kind": "blackberry",
       "position": {
-        "x": -2.617359,
+        "x": 0.18,
         "y": 0.008,
-        "z": 3.271189
+        "z": 3.37
       },
       "yaw": 3.182922,
       "scale": {
@@ -1858,9 +1968,9 @@
       "id": "V5_L02_blackberry_018",
       "kind": "blackberry",
       "position": {
-        "x": -3.348235,
+        "x": -0.18,
         "y": 0.008,
-        "z": 3.337837
+        "z": 3.01
       },
       "yaw": 0.782959,
       "scale": {
@@ -1881,9 +1991,9 @@
       "id": "V5_L02_blackberry_019",
       "kind": "blackberry",
       "position": {
-        "x": -3.952638,
+        "x": 0.18,
         "y": 0.008,
-        "z": 3.786379
+        "z": 3.01
       },
       "yaw": 4.666181,
       "scale": {
@@ -1904,9 +2014,9 @@
       "id": "V5_L02_blackberry_020",
       "kind": "blackberry",
       "position": {
-        "x": -4.242282,
+        "x": -0.18,
         "y": 0.008,
-        "z": 4.501345
+        "z": 2.65
       },
       "yaw": 2.266218,
       "scale": {
@@ -1927,9 +2037,9 @@
       "id": "V5_L02_blackberry_021",
       "kind": "blackberry",
       "position": {
-        "x": -4.114456,
+        "x": 0.18,
         "y": 0.008,
-        "z": 5.281096
+        "z": 2.65
       },
       "yaw": 6.14944,
       "scale": {
@@ -1950,9 +2060,9 @@
       "id": "V5_L02_blackberry_022",
       "kind": "blackberry",
       "position": {
-        "x": -3.587283,
+        "x": -0.18,
         "y": 0.008,
-        "z": 5.894631
+        "z": 2.29
       },
       "yaw": 3.749477,
       "scale": {
@@ -1973,9 +2083,9 @@
       "id": "V5_L02_blackberry_023",
       "kind": "blackberry",
       "position": {
-        "x": -2.8,
+        "x": 0.18,
         "y": 0.008,
-        "z": 6.15
+        "z": 2.29
       },
       "yaw": 1.349513,
       "scale": {
@@ -1996,9 +2106,9 @@
       "id": "V5_L02_blackberry_024",
       "kind": "blackberry",
       "position": {
-        "x": 2.8,
+        "x": -2.0,
         "y": 0.008,
-        "z": 5.35
+        "z": 4.5
       },
       "yaw": 5.232736,
       "scale": {
@@ -2019,9 +2129,9 @@
       "id": "V5_L02_blackberry_025",
       "kind": "blackberry",
       "position": {
-        "x": 3.20776,
+        "x": -2.093782,
         "y": 0.008,
-        "z": 5.270533
+        "z": 4.85
       },
       "yaw": 2.832772,
       "scale": {
@@ -2042,9 +2152,9 @@
       "id": "V5_L02_blackberry_026",
       "kind": "blackberry",
       "position": {
-        "x": 3.52768,
+        "x": -2.35,
         "y": 0.008,
-        "z": 4.977053
+        "z": 5.106218
       },
       "yaw": 0.432809,
       "scale": {
@@ -2065,9 +2175,9 @@
       "id": "V5_L02_blackberry_027",
       "kind": "blackberry",
       "position": {
-        "x": 3.652356,
+        "x": -2.7,
         "y": 0.008,
-        "z": 4.541697
+        "z": 5.2
       },
       "yaw": 4.316031,
       "scale": {
@@ -2088,9 +2198,9 @@
       "id": "V5_L02_blackberry_028",
       "kind": "blackberry",
       "position": {
-        "x": 3.526393,
+        "x": -3.05,
         "y": 0.008,
-        "z": 4.087256
+        "z": 5.106218
       },
       "yaw": 1.916068,
       "scale": {
@@ -2111,9 +2221,9 @@
       "id": "V5_L02_blackberry_029",
       "kind": "blackberry",
       "position": {
-        "x": 3.168088,
+        "x": -3.306218,
         "y": 0.008,
-        "z": 3.752577
+        "z": 4.85
       },
       "yaw": 5.79929,
       "scale": {
@@ -2134,9 +2244,9 @@
       "id": "V5_L02_blackberry_030",
       "kind": "blackberry",
       "position": {
-        "x": 2.669458,
+        "x": -3.4,
         "y": 0.008,
-        "z": 3.650234
+        "z": 4.5
       },
       "yaw": 3.399327,
       "scale": {
@@ -2157,9 +2267,9 @@
       "id": "V5_L02_blackberry_031",
       "kind": "blackberry",
       "position": {
-        "x": 2.173028,
+        "x": -3.306218,
         "y": 0.008,
-        "z": 3.829348
+        "z": 4.15
       },
       "yaw": 0.999364,
       "scale": {
@@ -2180,9 +2290,9 @@
       "id": "V5_L02_blackberry_032",
       "kind": "blackberry",
       "position": {
-        "x": 1.83111,
+        "x": -3.05,
         "y": 0.008,
-        "z": 4.255656
+        "z": 3.893782
       },
       "yaw": 4.882586,
       "scale": {
@@ -2203,9 +2313,9 @@
       "id": "V5_L02_blackberry_033",
       "kind": "blackberry",
       "position": {
-        "x": 1.759191,
+        "x": -2.7,
         "y": 0.008,
-        "z": 4.816283
+        "z": 3.8
       },
       "yaw": 2.482622,
       "scale": {
@@ -2226,9 +2336,9 @@
       "id": "V5_L02_blackberry_034",
       "kind": "blackberry",
       "position": {
-        "x": 1.997669,
+        "x": -2.35,
         "y": 0.008,
-        "z": 5.349325
+        "z": 3.893782
       },
       "yaw": 0.082659,
       "scale": {
@@ -2249,9 +2359,9 @@
       "id": "V5_L02_blackberry_035",
       "kind": "blackberry",
       "position": {
-        "x": 2.494426,
+        "x": -2.093782,
         "y": 0.008,
-        "z": 5.690608
+        "z": 4.15
       },
       "yaw": 3.965881,
       "scale": {
@@ -2272,9 +2382,9 @@
       "id": "V5_L02_blackberry_036",
       "kind": "blackberry",
       "position": {
-        "x": 3.114958,
+        "x": 3.4,
         "y": 0.008,
-        "z": 5.724101
+        "z": 4.5
       },
       "yaw": 1.565918,
       "scale": {
@@ -2295,9 +2405,9 @@
       "id": "V5_L02_blackberry_037",
       "kind": "blackberry",
       "position": {
-        "x": 3.678592,
+        "x": 3.306218,
         "y": 0.008,
-        "z": 5.420548
+        "z": 4.85
       },
       "yaw": 5.44914,
       "scale": {
@@ -2318,9 +2428,9 @@
       "id": "V5_L02_blackberry_038",
       "kind": "blackberry",
       "position": {
-        "x": 4.011084,
+        "x": 3.05,
         "y": 0.008,
-        "z": 4.851666
+        "z": 5.106218
       },
       "yaw": 3.049177,
       "scale": {
@@ -2341,9 +2451,9 @@
       "id": "V5_L02_blackberry_039",
       "kind": "blackberry",
       "position": {
-        "x": 3.99831,
+        "x": 2.7,
         "y": 0.008,
-        "z": 4.17412
+        "z": 5.2
       },
       "yaw": 0.649214,
       "scale": {
@@ -2364,9 +2474,9 @@
       "id": "V5_L02_blackberry_040",
       "kind": "blackberry",
       "position": {
-        "x": 3.62453,
+        "x": 2.35,
         "y": 0.008,
-        "z": 3.586516
+        "z": 5.106218
       },
       "yaw": 4.532436,
       "scale": {
@@ -2387,9 +2497,9 @@
       "id": "V5_L02_blackberry_041",
       "kind": "blackberry",
       "position": {
-        "x": 2.982641,
+        "x": 2.093782,
         "y": 0.008,
-        "z": 3.271189
+        "z": 4.85
       },
       "yaw": 2.132472,
       "scale": {
@@ -2410,9 +2520,9 @@
       "id": "V5_L02_blackberry_042",
       "kind": "blackberry",
       "position": {
-        "x": 2.251765,
+        "x": 2.0,
         "y": 0.008,
-        "z": 3.337837
+        "z": 4.5
       },
       "yaw": 6.015695,
       "scale": {
@@ -2433,9 +2543,9 @@
       "id": "V5_L02_blackberry_043",
       "kind": "blackberry",
       "position": {
-        "x": 1.647362,
+        "x": 2.093782,
         "y": 0.008,
-        "z": 3.786379
+        "z": 4.15
       },
       "yaw": 3.615731,
       "scale": {
@@ -2456,9 +2566,9 @@
       "id": "V5_L02_blackberry_044",
       "kind": "blackberry",
       "position": {
-        "x": 1.357718,
+        "x": 2.35,
         "y": 0.008,
-        "z": 4.501345
+        "z": 3.893782
       },
       "yaw": 1.215768,
       "scale": {
@@ -2479,9 +2589,9 @@
       "id": "V5_L02_blackberry_045",
       "kind": "blackberry",
       "position": {
-        "x": 1.485544,
+        "x": 2.7,
         "y": 0.008,
-        "z": 5.281096
+        "z": 3.8
       },
       "yaw": 5.09899,
       "scale": {
@@ -2502,9 +2612,9 @@
       "id": "V5_L02_blackberry_046",
       "kind": "blackberry",
       "position": {
-        "x": 2.012717,
+        "x": 3.05,
         "y": 0.008,
-        "z": 5.894631
+        "z": 3.893782
       },
       "yaw": 2.699027,
       "scale": {
@@ -2525,9 +2635,9 @@
       "id": "V5_L02_blackberry_047",
       "kind": "blackberry",
       "position": {
-        "x": 2.8,
+        "x": 3.306218,
         "y": 0.008,
-        "z": 6.15
+        "z": 4.15
       },
       "yaw": 0.299064,
       "scale": {
@@ -3285,45 +3395,45 @@
       "kind": "apple",
       "position": {
         "x": -2.2,
-        "y": 0.008,
-        "z": -4.5
+        "y": 0.57,
+        "z": -3.45
       },
-      "yaw": 0.0,
+      "yaw": 0,
       "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
+        "x": 0.86,
+        "y": 0.86,
+        "z": 0.86
       },
       "asset": "models/hole/apple-level02.glb",
       "growth": 4,
       "collision": {
         "profile": "apple",
-        "radius": 0.72,
-        "height": 1.4,
-        "mass": 0.32
+        "radius": 0.6192,
+        "height": 1.204,
+        "mass": 0.20353792
       }
     },
     {
       "id": "V5_L02_apple_001",
       "kind": "apple",
       "position": {
-        "x": -0.963627,
-        "y": 0.008,
-        "z": -5.398278
+        "x": 2.2,
+        "y": 0.57,
+        "z": -3.45
       },
-      "yaw": 3.883222,
+      "yaw": 0,
       "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
+        "x": 0.86,
+        "y": 0.86,
+        "z": 0.86
       },
       "asset": "models/hole/apple-level02.glb",
       "growth": 4,
       "collision": {
         "profile": "apple",
-        "radius": 0.72,
-        "height": 1.4,
-        "mass": 0.32
+        "radius": 0.6192,
+        "height": 1.204,
+        "mass": 0.20353792
       }
     },
     {
@@ -3509,6 +3619,190 @@
         "height": 1.4,
         "mass": 0.32
       }
+    },
+    {
+      "id": "OPEN_L02_crate_0_0_0",
+      "kind": "wood_crate",
+      "asset": "models/campaign/wood_crate.glb",
+      "position": {
+        "x": -2.486,
+        "y": 0.008,
+        "z": -3.736
+      },
+      "yaw": 0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "growth": 1,
+      "collision": {
+        "profile": "wood_crate",
+        "radius": 0.4,
+        "height": 0.56,
+        "mass": 0.065
+      }
+    },
+    {
+      "id": "OPEN_L02_crate_0_0_1",
+      "kind": "wood_crate",
+      "asset": "models/campaign/wood_crate.glb",
+      "position": {
+        "x": -1.914,
+        "y": 0.008,
+        "z": -3.736
+      },
+      "yaw": 0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "growth": 1,
+      "collision": {
+        "profile": "wood_crate",
+        "radius": 0.4,
+        "height": 0.56,
+        "mass": 0.065
+      }
+    },
+    {
+      "id": "OPEN_L02_crate_0_1_0",
+      "kind": "wood_crate",
+      "asset": "models/campaign/wood_crate.glb",
+      "position": {
+        "x": -2.486,
+        "y": 0.008,
+        "z": -3.164
+      },
+      "yaw": 0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "growth": 1,
+      "collision": {
+        "profile": "wood_crate",
+        "radius": 0.4,
+        "height": 0.56,
+        "mass": 0.065
+      }
+    },
+    {
+      "id": "OPEN_L02_crate_0_1_1",
+      "kind": "wood_crate",
+      "asset": "models/campaign/wood_crate.glb",
+      "position": {
+        "x": -1.914,
+        "y": 0.008,
+        "z": -3.164
+      },
+      "yaw": 0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "growth": 1,
+      "collision": {
+        "profile": "wood_crate",
+        "radius": 0.4,
+        "height": 0.56,
+        "mass": 0.065
+      }
+    },
+    {
+      "id": "OPEN_L02_crate_1_0_0",
+      "kind": "wood_crate",
+      "asset": "models/campaign/wood_crate.glb",
+      "position": {
+        "x": 1.914,
+        "y": 0.008,
+        "z": -3.736
+      },
+      "yaw": 0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "growth": 1,
+      "collision": {
+        "profile": "wood_crate",
+        "radius": 0.4,
+        "height": 0.56,
+        "mass": 0.065
+      }
+    },
+    {
+      "id": "OPEN_L02_crate_1_0_1",
+      "kind": "wood_crate",
+      "asset": "models/campaign/wood_crate.glb",
+      "position": {
+        "x": 2.486,
+        "y": 0.008,
+        "z": -3.736
+      },
+      "yaw": 0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "growth": 1,
+      "collision": {
+        "profile": "wood_crate",
+        "radius": 0.4,
+        "height": 0.56,
+        "mass": 0.065
+      }
+    },
+    {
+      "id": "OPEN_L02_crate_1_1_0",
+      "kind": "wood_crate",
+      "asset": "models/campaign/wood_crate.glb",
+      "position": {
+        "x": 1.914,
+        "y": 0.008,
+        "z": -3.164
+      },
+      "yaw": 0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "growth": 1,
+      "collision": {
+        "profile": "wood_crate",
+        "radius": 0.4,
+        "height": 0.56,
+        "mass": 0.065
+      }
+    },
+    {
+      "id": "OPEN_L02_crate_1_1_1",
+      "kind": "wood_crate",
+      "asset": "models/campaign/wood_crate.glb",
+      "position": {
+        "x": 2.486,
+        "y": 0.008,
+        "z": -3.164
+      },
+      "yaw": 0,
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "growth": 1,
+      "collision": {
+        "profile": "wood_crate",
+        "radius": 0.4,
+        "height": 0.56,
+        "mass": 0.065
+      }
     }
   ],
   "collectY": -2.28,
@@ -3516,8 +3810,8 @@
   "rescueDistance": 3,
   "rewards": {
     "coins": 28,
-    "secondStarFraction": 0.2,
-    "thirdStarFraction": 0.45
+    "secondStarFraction": 0.15,
+    "thirdStarFraction": 0.35
   },
   "shoreline": [
     {
@@ -3573,5 +3867,31 @@
       "z": 7
     }
   ],
-  "boosters": []
+  "boosters": [],
+  "navigation": [
+    {
+      "x": 0,
+      "z": 6
+    },
+    {
+      "x": 0,
+      "z": 2
+    },
+    {
+      "x": 0,
+      "z": -2
+    },
+    {
+      "x": -2.2,
+      "z": -3.45
+    },
+    {
+      "x": 2.2,
+      "z": -3.45
+    },
+    {
+      "x": 0,
+      "z": -5.5
+    }
+  ]
 }

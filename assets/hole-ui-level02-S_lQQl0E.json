@@ -103,7 +103,14 @@
           "settingsStep": 67
         },
         "backdropFadeDuration": 0.24,
-        "starCenterLift": 8
+        "starCenterLift": 8,
+        "growthFeedback": [
+          {
+            "size": 2,
+            "text": "Crates can fall!",
+            "seconds": 1.5
+          }
+        ]
       }
     }
   },
@@ -318,7 +325,7 @@
             "count": {
               "type": "Text",
               "props": {
-                "text": "24",
+                "text": "16",
                 "x": 30,
                 "y": 65,
                 "anchor": 0.5,
@@ -407,6 +414,116 @@
             "icon": {
               "type": "Sprite",
               "props": {
+                "asset": "images/ui/icon-wood_crate.webp",
+                "x": 30,
+                "y": 28,
+                "width": 44,
+                "height": 44,
+                "anchor": 0.5,
+                "visible": true
+              },
+              "components": {
+                "fruit": {
+                  "type": "IslandFruit",
+                  "data": {
+                    "kind": "wood_crate",
+                    "size": 44
+                  }
+                }
+              }
+            },
+            "count": {
+              "type": "Text",
+              "props": {
+                "text": "4",
+                "x": 30,
+                "y": 65,
+                "anchor": 0.5,
+                "style": {
+                  "fontFamily": "Rubik",
+                  "fontWeight": "700",
+                  "fontSize": 24,
+                  "fill": 16775134,
+                  "stroke": {
+                    "color": 4864884,
+                    "width": 3,
+                    "join": "round"
+                  }
+                }
+              }
+            },
+            "check": {
+              "type": "Sprite",
+              "props": {
+                "asset": "images/ui/generated-19-checkmark.webp",
+                "x": 30,
+                "y": 65,
+                "width": 26,
+                "height": 26,
+                "anchor": 0.5,
+                "visible": false
+              }
+            }
+          },
+          "type": "Container",
+          "components": {
+            "goal": {
+              "type": "IslandGoal",
+              "data": {
+                "activeColor": 16775134,
+                "completeColor": 6809143,
+                "pulseDuration": 0.18,
+                "pulseAmount": 0.06,
+                "completeHold": 0.14,
+                "completePop": 0.12,
+                "completeScale": 1.12,
+                "completeSettle": 0.14,
+                "collapseDuration": 0.24,
+                "collapseScale": 0.02,
+                "reflowDuration": 0.24,
+                "pivotX": 30,
+                "pivotY": 40.5,
+                "pulseEase": "power2.out",
+                "settleEase": "power2.inOut",
+                "collapseEase": "power2.in",
+                "reflowEase": "power2.out"
+              }
+            }
+          }
+        },
+        "card2": {
+          "props": {
+            "x": 0,
+            "y": 0
+          },
+          "children": {
+            "skin": {
+              "type": "Sprite",
+              "props": {
+                "asset": "images/ui/generated-01-goal-card.webp",
+                "x": 0,
+                "y": 0,
+                "width": 60,
+                "height": 81,
+                "anchor": 0,
+                "visible": true
+              }
+            },
+            "back": {
+              "type": "Sprite",
+              "props": {
+                "asset": "images/ui/generated-02-goal-card-back.webp",
+                "x": 0,
+                "y": 0,
+                "width": 60,
+                "height": 81,
+                "anchor": 0,
+                "visible": false
+              }
+            },
+            "icon": {
+              "type": "Sprite",
+              "props": {
                 "asset": "images/ui/generated-06-fruit-apple.webp",
                 "x": 30,
                 "y": 28,
@@ -428,7 +545,7 @@
             "count": {
               "type": "Text",
               "props": {
-                "text": "6",
+                "text": "4",
                 "x": 30,
                 "y": 65,
                 "anchor": 0.5,
@@ -521,7 +638,7 @@
         "style": {
           "fontFamily": "Rubik",
           "fontWeight": "700",
-          "fontSize": 44,
+          "fontSize": 32,
           "fill": 16777215,
           "stroke": {
             "color": 4864884,
@@ -1083,7 +1200,7 @@
     "fps": {
       "type": "Text",
       "props": {
-        "text": "FPS \u2014",
+        "text": "FPS —",
         "x": 500,
         "y": 930,
         "anchor": {

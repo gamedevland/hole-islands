@@ -1,7 +1,7 @@
 {
   "id": "fruit-lagoon-03-v5",
   "title": "Pear Shores",
-  "timer": 140,
+  "timer": 145,
   "spawn": {
     "x": 0.0,
     "z": 9.7
@@ -40,17 +40,17 @@
       "speed": 2.35
     },
     {
-      "threshold": 24,
+      "threshold": 12,
       "radius": 0.78,
       "speed": 2.62
     },
     {
-      "threshold": 96,
+      "threshold": 48,
       "radius": 1.08,
       "speed": 2.95
     },
     {
-      "threshold": 200,
+      "threshold": 112,
       "radius": 1.38,
       "speed": 3.22
     }
@@ -1258,7 +1258,7 @@
   "goals": [
     {
       "kind": "pear",
-      "count": 30,
+      "count": 18,
       "label": "Pears",
       "icon": "images/ui/icon-pear.webp"
     },
@@ -6589,8 +6589,8 @@
   "rescueDistance": 3,
   "rewards": {
     "coins": 34,
-    "secondStarFraction": 0.2,
-    "thirdStarFraction": 0.45
+    "secondStarFraction": 0.15,
+    "thirdStarFraction": 0.35
   },
   "shoreline": [
     {

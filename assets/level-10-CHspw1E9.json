@@ -1,7 +1,7 @@
 {
   "id": "fruit-lagoon-10-v5",
   "title": "Vegetable Celebration",
-  "timer": 170,
+  "timer": 185,
   "spawn": {
     "x": 0.0,
     "z": 13.2
@@ -42,27 +42,27 @@
       "speed": 2.4
     },
     {
-      "threshold": 24,
+      "threshold": 12,
       "radius": 0.62,
       "speed": 2.65
     },
     {
-      "threshold": 96,
+      "threshold": 64,
       "radius": 0.86,
       "speed": 2.9
     },
     {
-      "threshold": 200,
+      "threshold": 140,
       "radius": 1.12,
       "speed": 3.15
     },
     {
-      "threshold": 360,
+      "threshold": 260,
       "radius": 1.45,
       "speed": 3.4
     },
     {
-      "threshold": 560,
+      "threshold": 400,
       "radius": 1.94,
       "speed": 3.6
     }
@@ -1154,13 +1154,13 @@
   "goals": [
     {
       "kind": "beet_slice",
-      "count": 280,
+      "count": 200,
       "label": "Beet slices",
       "icon": "images/ui/icon-beet_slice.webp"
     },
     {
       "kind": "carrot_slice",
-      "count": 168,
+      "count": 120,
       "label": "Carrot slices",
       "icon": "images/ui/icon-carrot_slice.webp"
     },
@@ -12517,8 +12517,8 @@
   "rescueDistance": 3,
   "rewards": {
     "coins": 62,
-    "secondStarFraction": 0.2,
-    "thirdStarFraction": 0.45
+    "secondStarFraction": 0.15,
+    "thirdStarFraction": 0.35
   },
   "shoreline": [
     {

@@ -103,7 +103,14 @@
           "settingsStep": 67
         },
         "backdropFadeDuration": 0.24,
-        "starCenterLift": 8
+        "starCenterLift": 8,
+        "growthFeedback": [
+          {
+            "size": 5,
+            "text": "Drop the peppers!",
+            "seconds": 1.5
+          }
+        ]
       }
     }
   },
@@ -149,7 +156,7 @@
         "level": {
           "type": "Text",
           "props": {
-            "text": "4",
+            "text": "8",
             "x": 33,
             "y": 33,
             "anchor": 0.5,
@@ -169,7 +176,7 @@
         "value": {
           "type": "Text",
           "props": {
-            "text": "0 / 74",
+            "text": "0 / 3",
             "x": 111,
             "y": 31,
             "anchor": 0.5,
@@ -221,7 +228,7 @@
         "value": {
           "type": "Text",
           "props": {
-            "text": "02:10",
+            "text": "03:00",
             "x": 80,
             "y": 20,
             "anchor": 0.5,
@@ -297,7 +304,7 @@
             "icon": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/icon-apricot_slice.webp",
+                "asset": "images/ui/icon-yellow_pepper.webp",
                 "x": 30,
                 "y": 28,
                 "width": 44,
@@ -309,7 +316,7 @@
                 "fruit": {
                   "type": "IslandFruit",
                   "data": {
-                    "kind": "apricot_slice",
+                    "kind": "pepper_yellow",
                     "size": 44
                   }
                 }
@@ -318,7 +325,7 @@
             "count": {
               "type": "Text",
               "props": {
-                "text": "40",
+                "text": "1",
                 "x": 30,
                 "y": 65,
                 "anchor": 0.5,
@@ -407,7 +414,7 @@
             "icon": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/icon-kiwi_slice.webp",
+                "asset": "images/ui/icon-green_pepper.webp",
                 "x": 30,
                 "y": 28,
                 "width": 44,
@@ -419,7 +426,7 @@
                 "fruit": {
                   "type": "IslandFruit",
                   "data": {
-                    "kind": "kiwi_slice",
+                    "kind": "pepper_green",
                     "size": 44
                   }
                 }
@@ -428,7 +435,7 @@
             "count": {
               "type": "Text",
               "props": {
-                "text": "30",
+                "text": "1",
                 "x": 30,
                 "y": 65,
                 "anchor": 0.5,
@@ -517,7 +524,7 @@
             "icon": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/icon-golden_kiwi_slice.webp",
+                "asset": "images/ui/icon-red_pepper.webp",
                 "x": 30,
                 "y": 28,
                 "width": 44,
@@ -529,7 +536,7 @@
                 "fruit": {
                   "type": "IslandFruit",
                   "data": {
-                    "kind": "golden_kiwi_slice",
+                    "kind": "pepper_red",
                     "size": 44
                   }
                 }
@@ -538,7 +545,7 @@
             "count": {
               "type": "Text",
               "props": {
-                "text": "4",
+                "text": "1",
                 "x": 30,
                 "y": 65,
                 "anchor": 0.5,
@@ -631,7 +638,7 @@
         "style": {
           "fontFamily": "Rubik",
           "fontWeight": "700",
-          "fontSize": 44,
+          "fontSize": 32,
           "fill": 16777215,
           "stroke": {
             "color": 4864884,
@@ -1193,7 +1200,7 @@
     "fps": {
       "type": "Text",
       "props": {
-        "text": "FPS \u2014",
+        "text": "FPS —",
         "x": 500,
         "y": 930,
         "anchor": {
@@ -1300,7 +1307,7 @@
             "ring": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/generated-23-booster-locked-slot.webp",
+                "asset": "images/ui/generated-22-booster-base.webp",
                 "x": 0,
                 "y": 0,
                 "width": 54,
@@ -1312,11 +1319,11 @@
             "lock": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/generated-24-padlock.webp",
-                "x": 10,
-                "y": 3,
-                "width": 34,
-                "height": 34,
+                "asset": "images/ui/generated-26-booster-magnet.webp",
+                "x": 8,
+                "y": 6,
+                "width": 38,
+                "height": 38,
                 "anchor": 0,
                 "visible": true
               }
@@ -1324,7 +1331,7 @@
             "label": {
               "type": "Text",
               "props": {
-                "text": "Lv. 5",
+                "text": "FREE",
                 "x": 27,
                 "y": 50,
                 "anchor": 0.5,
@@ -1341,6 +1348,18 @@
                 }
               }
             }
+          },
+          "components": {
+            "button": {
+              "type": "IslandButton",
+              "data": {
+                "intent": "HOLE_BOOST",
+                "intentData": {
+                  "kind": "magnet"
+                },
+                "pressScale": 0.975
+              }
+            }
           }
         },
         "slot2": {
@@ -1353,7 +1372,7 @@
             "ring": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/generated-23-booster-locked-slot.webp",
+                "asset": "images/ui/generated-22-booster-base.webp",
                 "x": 0,
                 "y": 0,
                 "width": 54,
@@ -1365,11 +1384,11 @@
             "lock": {
               "type": "Sprite",
               "props": {
-                "asset": "images/ui/generated-24-padlock.webp",
-                "x": 10,
-                "y": 3,
-                "width": 34,
-                "height": 34,
+                "asset": "images/ui/generated-27-booster-compass.webp",
+                "x": 8,
+                "y": 6,
+                "width": 38,
+                "height": 38,
                 "anchor": 0,
                 "visible": true
               }
@@ -1377,7 +1396,7 @@
             "label": {
               "type": "Text",
               "props": {
-                "text": "Lv. 7",
+                "text": "FREE",
                 "x": 27,
                 "y": 50,
                 "anchor": 0.5,
@@ -1392,6 +1411,18 @@
                     "join": "round"
                   }
                 }
+              }
+            }
+          },
+          "components": {
+            "button": {
+              "type": "IslandButton",
+              "data": {
+                "intent": "HOLE_BOOST",
+                "intentData": {
+                  "kind": "goal-finder"
+                },
+                "pressScale": 0.975
               }
             }
           }

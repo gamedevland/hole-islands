@@ -1,7 +1,7 @@
 {
   "id": "fruit-lagoon-09-v5",
   "title": "Three Berry Crowns",
-  "timer": 180,
+  "timer": 160,
   "spawn": {
     "x": 0.0,
     "z": 14.2
@@ -38,31 +38,31 @@
   "growth": [
     {
       "threshold": 0,
-      "radius": 0.42,
+      "radius": 0.62,
       "speed": 2.4
     },
     {
-      "threshold": 24,
-      "radius": 0.62,
+      "threshold": 16,
+      "radius": 0.78,
       "speed": 2.65
     },
     {
-      "threshold": 96,
-      "radius": 0.86,
+      "threshold": 64,
+      "radius": 1.02,
       "speed": 2.9
     },
     {
-      "threshold": 200,
-      "radius": 1.12,
+      "threshold": 140,
+      "radius": 1.32,
       "speed": 3.15
     },
     {
-      "threshold": 360,
-      "radius": 1.45,
+      "threshold": 240,
+      "radius": 1.65,
       "speed": 3.4
     },
     {
-      "threshold": 560,
+      "threshold": 380,
       "radius": 1.94,
       "speed": 3.6
     }
@@ -1047,19 +1047,19 @@
   "goals": [
     {
       "kind": "blueberry",
-      "count": 280,
+      "count": 220,
       "label": "Blueberries",
       "icon": "images/ui/icon-blueberry.webp"
     },
     {
       "kind": "blackberry",
-      "count": 280,
+      "count": 220,
       "label": "Blackberries",
       "icon": "images/ui/generated-78-fruit-blackberry.webp"
     },
     {
       "kind": "fig",
-      "count": 12,
+      "count": 6,
       "label": "Figs",
       "icon": "images/ui/icon-fig.webp"
     }
@@ -15239,8 +15239,8 @@
   "rescueDistance": 3,
   "rewards": {
     "coins": 58,
-    "secondStarFraction": 0.2,
-    "thirdStarFraction": 0.45
+    "secondStarFraction": 0.15,
+    "thirdStarFraction": 0.35
   },
   "shoreline": [
     {
